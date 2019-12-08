@@ -1,10 +1,21 @@
 # Billboard x AllMusic 数据报告
 
-（我就随便瞎写一下，我姑妄说之您姑妄听之）
+（简单介绍一下情况，我姑妄说之您姑妄听之）
 
-[TOC]
+- [Billboard x AllMusic 数据报告](#billboard-x-allmusic-数据报告)
+  * [数据获取策略](#数据获取策略)
+  * [标签聚类](#标签聚类)
+  * [数据清洗](#数据清洗)
+  * [数据概览](#数据概览)
+    + [整体](#整体)
+    + [Hits](#hits)
+    + [Non-hits](#non-hits)
+  * [TODO](#todo)
 
-## 数据获取方法
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+
+## 数据获取策略
 
 1. 从 Billboard Hot 100 周榜获取所有上榜歌曲作为整体，其中 Billboard Hot 100 Year-end 榜单的歌曲作为“非常流行（Hits）”的样本，其余作为“比较流行（Non-Hits）”的样本，以此进行二元分类。
 2. 在 AllMusic 网站搜索上述样本，获取其“主题（Theme）”标签。其中没有搜索结果的歌曲和没有被打上标签的歌曲从样本数据库中舍弃。
@@ -14,7 +25,7 @@
 
 AllMusic 的 Theme 共有 182 个标签，冗余严重（x 
 
-Bischoff, Kerstin & Claudiu, Sava & Paiu, Raluca & Nejdl, Wolfgang & Laurier, Cyril & Sordo, Mohamed. (2009). Music Mood and Theme Classification - a Hybrid Approach.. Proceedings of the 10th International Society for Music Information Retrieval Conference, ISMIR 2009. 657-662. （我被 APA 会议格式搞昏了，直接复制网站给的 citation 了将 AllMuisc 的 theme tags 按相似性做了聚类，并排除掉了一些收录歌曲过少的标签，原表如下：
+[Bischoff, Kerstin & Claudiu, Sava & Paiu, Raluca & Nejdl, Wolfgang & Laurier, Cyril & Sordo, Mohamed. (2009). Music Mood and Theme Classification - a Hybrid Approach.. Proceedings of the 10th International Society for Music Information Retrieval Conference, ISMIR 2009. 657-662.](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.182.937&rep=rep1&type=pdf) （我被 APA 会议格式搞昏了，直接复制 [ResearchGate](https://www.researchgate.net/publication/220723819_Music_Mood_and_Theme_Classification_-_a_Hybrid_Approach) 给的 citation 了）将 AllMuisc 的 theme tags 按相似性做了聚类，并排除掉了一些收录歌曲过少的标签，原表如下：
 
 | Cluster | Theme tags                                                   |
 | ------- | ------------------------------------------------------------ |
@@ -73,43 +84,43 @@ Anyway，清洗之后的样本容量如下：
 
 4295 首歌曲中共有 492 首有标签：
 
-![whole_proportion](/Users/mac/PycharmProjects/LoveSongs/whole_proportion.png)
+![whole_proportion](https://raw.githubusercontent.com/EmoZhang/regret-love-guilt-dreams/dev/whole_proportion.png)
 
 其中被打上标签的歌曲分布：
 
-![whole_tag_distribution](/Users/mac/PycharmProjects/LoveSongs/whole_tag_distribution.png)
+![whole_tag_distribution](https://raw.githubusercontent.com/EmoZhang/regret-love-guilt-dreams/dev/whole_tag_distribution.png)
 
 其中 Love Song 有 161 首，Breakup Song 有 62 首：
 
-![whole_tag_clustering](/Users/mac/PycharmProjects/LoveSongs/whole_tag_clustering.png)
+![whole_tag_clustering](https://raw.githubusercontent.com/EmoZhang/regret-love-guilt-dreams/dev/whole_tag_clustering.png)
 
 ### Hits
 
 901 首歌曲中共有 143 首有标签：
 
-![hit_proportion](/Users/mac/PycharmProjects/LoveSongs/hit_proportion.png)
+![hit_proportion](https://raw.githubusercontent.com/EmoZhang/regret-love-guilt-dreams/dev/hit_proportion.png)
 
 其中被打上标签的歌曲分布：
 
-![hit_tag_distribution](/Users/mac/PycharmProjects/LoveSongs/hit_tag_distribution.png)
+![hit_tag_distribution](https://raw.githubusercontent.com/EmoZhang/regret-love-guilt-dreams/dev/hit_tag_distribution.png)
 
 其中 Love Song 有 54 首，Breakup Song 有 22 首：
 
-![hit_tag_clustering](/Users/mac/PycharmProjects/LoveSongs/hit_tag_clustering.png)
+![hit_tag_clustering](https://raw.githubusercontent.com/EmoZhang/regret-love-guilt-dreams/dev/hit_tag_clustering.png)
 
 ### Non-hits
 
 3394 首歌曲中共有 349 首有标签：
 
-![non_hit_proportion](/Users/mac/PycharmProjects/LoveSongs/non_hit_proportion.png)
+![non_hit_proportion](https://raw.githubusercontent.com/EmoZhang/regret-love-guilt-dreams/dev/non_hit_proportion.png)
 
 其中被打上标签的歌曲分布：
 
-![hit_tag_distribution](/Users/mac/PycharmProjects/LoveSongs/hit_tag_distribution.png)
+![hit_tag_distribution](https://raw.githubusercontent.com/EmoZhang/regret-love-guilt-dreams/dev/non_hit_tag_distribution.png)
 
 其中 Love Song 有 54 首，Breakup Song 有 22 首：
 
-![hit_tag_clustering](/Users/mac/PycharmProjects/LoveSongs/hit_tag_clustering.png)
+![hit_tag_clustering](https://raw.githubusercontent.com/EmoZhang/regret-love-guilt-dreams/dev/non_hit_tag_clustering.png)
 
 ## TODO
 
