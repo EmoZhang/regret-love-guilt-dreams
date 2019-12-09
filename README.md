@@ -24,7 +24,7 @@
 ## 标签聚类
 
 AllMusic 的 Theme 共有 182 个标签，冗余严重（x 
-<!--
+
 [Bischoff, Kerstin & Claudiu, Sava & Paiu, Raluca & Nejdl, Wolfgang & Laurier, Cyril & Sordo, Mohamed. (2009). Music Mood and Theme Classification - a Hybrid Approach.. Proceedings of the 10th International Society for Music Information Retrieval Conference, ISMIR 2009. 657-662.](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.182.937&rep=rep1&type=pdf) （我被 APA 会议格式搞昏了，直接复制 [ResearchGate](https://www.researchgate.net/publication/220723819_Music_Mood_and_Theme_Classification_-_a_Hybrid_Approach) 给的 citation 了）将 AllMuisc 的 theme tags 按相似性做了聚类，并排除掉了一些收录歌曲过少的标签，原表如下：
 
 | Cluster | Theme tags                                                   |
@@ -35,9 +35,10 @@ AllMusic 的 Theme 共有 182 个标签，冗余严重（x
 | T4      | D-I-V-O-R-C-E, Heartache, Feeling Blue, Breakup, Regret, Loss/Grief, Jealousy, Autumn, Rainy Day, Stay in Bed, Solitude, Reminiscing, Introspection, Reflection, Winter, Sunday Afternoon |
 
 我在此基础上筛选并增补了一下暂且作为分类标准：
--->
 
+<!--
 目前采取的标签聚类标准：
+-->
 
 | Cluster | Theme tags                                                   |
 | ------- | ------------------------------------------------------------ |
