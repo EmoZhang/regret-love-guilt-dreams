@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"Billboard.10yYearly"}],"uuid":"268c0a135a9f4a43968bc924cc4d79b8"}

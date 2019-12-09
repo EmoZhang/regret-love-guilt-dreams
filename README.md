@@ -72,7 +72,7 @@ Anyway，清洗之后的样本容量如下：
 | -------- | ------ | ------ | ---------- | ---- |
 | Hits     | 143    | 752    | 6          | 901  |
 | Non-hits | 349    | 2999   | 46         | 3394 |
-| 样本总体     | 492    | 3751   | 52         | 4295 |
+| 样本总体  | 492    | 3751   | 52         | 4295 |
 
 标签聚类情况：
 
@@ -80,7 +80,7 @@ Anyway，清洗之后的样本容量如下：
 | -------- | ---------- | ------------- | ---- | ---- |
 | Hits     | 54         | 22            | 67   | 143  |
 | Non-hits | 107        | 40            | 202  | 349  |
-| 样本总体     | 161        | 62            | 269  | 492  |
+| 样本总体  | 161        | 62            | 269  | 492  |
 
 做了几个小图表：
 
@@ -88,43 +88,43 @@ Anyway，清洗之后的样本容量如下：
 
 4295 首歌曲中共有 492 首有标签：
 
-![whole_proportion](https://raw.githubusercontent.com/EmoZhang/regret-love-guilt-dreams/dev/whole_proportion.png)
+![whole_proportion](https://raw.githubusercontent.com/EmoZhang/regret-love-guilt-dreams/dev/pics/whole_proportion.png)
 
 其中被打上标签的歌曲分布：
 
-![whole_tag_distribution](https://raw.githubusercontent.com/EmoZhang/regret-love-guilt-dreams/dev/whole_tag_distribution.png)
+![whole_tag_distribution](https://raw.githubusercontent.com/EmoZhang/regret-love-guilt-dreams/dev/pics/whole_tag_distribution.png)
 
 ~~其中 Love Song 有 161 首，Breakup Song 有 62 首：~~
 
-![whole_tag_clustering](https://raw.githubusercontent.com/EmoZhang/regret-love-guilt-dreams/dev/whole_tag_clustering.png)
+![whole_tag_clustering](https://raw.githubusercontent.com/EmoZhang/regret-love-guilt-dreams/dev/pics/whole_tag_clustering.png)
 
 ### Hits
 
 901 首歌曲中共有 143 首有标签：
 
-![hit_proportion](https://raw.githubusercontent.com/EmoZhang/regret-love-guilt-dreams/dev/hit_proportion.png)
+![hit_proportion](https://raw.githubusercontent.com/EmoZhang/regret-love-guilt-dreams/dev/pics/hit_proportion.png)
 
 其中被打上标签的歌曲分布：
 
-![hit_tag_distribution](https://raw.githubusercontent.com/EmoZhang/regret-love-guilt-dreams/dev/hit_tag_distribution.png)
+![hit_tag_distribution](https://raw.githubusercontent.com/EmoZhang/regret-love-guilt-dreams/dev/pics/hit_tag_distribution.png)
 
 ~~其中 Love Song 有 54 首，Breakup Song 有 22 首：~~
 
-![hit_tag_clustering](https://raw.githubusercontent.com/EmoZhang/regret-love-guilt-dreams/dev/hit_tag_clustering.png)
+![hit_tag_clustering](https://raw.githubusercontent.com/EmoZhang/regret-love-guilt-dreams/dev/pics/hit_tag_clustering.png)
 
 ### Non-hits
 
 3394 首歌曲中共有 349 首有标签：
 
-![non_hit_proportion](https://raw.githubusercontent.com/EmoZhang/regret-love-guilt-dreams/dev/non_hit_proportion.png)
+![non_hit_proportion](https://raw.githubusercontent.com/EmoZhang/regret-love-guilt-dreams/dev/pics/non_hit_proportion.png)
 
 其中被打上标签的歌曲分布：
 
-![hit_tag_distribution](https://raw.githubusercontent.com/EmoZhang/regret-love-guilt-dreams/dev/non_hit_tag_distribution.png)
+![hit_tag_distribution](https://raw.githubusercontent.com/EmoZhang/regret-love-guilt-dreams/dev/pics/non_hit_tag_distribution.png)
 
 ~~其中 Love Song 有 54 首，Breakup Song 有 22 首：~~
 
-![hit_tag_clustering](https://raw.githubusercontent.com/EmoZhang/regret-love-guilt-dreams/dev/non_hit_tag_clustering.png)
+![hit_tag_clustering](https://raw.githubusercontent.com/EmoZhang/regret-love-guilt-dreams/dev/pics/non_hit_tag_clustering.png)
 
 ## TODO
 
