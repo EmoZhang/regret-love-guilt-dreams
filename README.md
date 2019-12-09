@@ -30,7 +30,7 @@ AllMusic 的 Theme 共有 182 个标签，冗余严重（x
 | Cluster | Theme tags                                                   |
 | ------- | ------------------------------------------------------------ |
 | T1      | Party Time, Birthday Party, Celebration, Prom, Late Night, Guys Night Out, Girls Night Out, At the Beach, Drinking, Cool & Cocky, TGIF, Pool Party, Club, Summertime |
-| T2      | Sex, Seduction, Slow Dance, Romantic Evening, In Love New Love, Wedding, Dinner Ambiance |
+| T2      | Sex, Seduction, Slow Dance, Romantic Evening, In Love, New Love, Wedding, Dinner Ambiance |
 | T3      | Background Music, Exercise/Workout Music, Playful  The Sporting Life, Long Walk, The Great Outdoors, Picnic, Motivation, Empowering, Affirmation, The Creative Side, Victory, Day Driving, Road Trip, At the Office |
 | T4      | D-I-V-O-R-C-E, Heartache, Feeling Blue, Breakup, Regret, Loss/Grief, Jealousy, Autumn, Rainy Day, Stay in Bed, Solitude, Reminiscing, Introspection, Reflection, Winter, Sunday Afternoon |
 
