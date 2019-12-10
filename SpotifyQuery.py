@@ -86,7 +86,7 @@ class AudioFeatures:
                     else:
                         track_id = search_result.json()['tracks']['items'][0]['uri'].split(':')[2]
                         song_name = search_result.json()['tracks']['items'][0]['name']
-                        performer_name = ','.join(
+                        performer_name = ', '.join(
                             [item['name'] for item in search_result.json()['tracks']['items'][0]['artists']])
                         return track_id, song_name, performer_name
                 elif rate == 1:
