@@ -15,7 +15,7 @@ def update_class(song, performer, class_):
 
 
 for record in f:
-    for tag in record['tags']:
+    for tag in record['Tags']:
         if tag in love_tags and tag in breakup_tags:
             if record['Song'] == 'Find Your Love':
                 update_class(song=record['Song'], performer=record['Performer'], class_='Love')

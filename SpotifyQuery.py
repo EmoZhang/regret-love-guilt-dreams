@@ -138,7 +138,7 @@ client = MongoClient(host='localhost', port=27017)
 db = client['Billboard']
 collection = db['Sample']
 
-records = collection.find({'audio_features': None})
+records = collection.find({'audio_features': None, 'class': {'$exists': True}})
 for idx, record in enumerate(records):
     Performer = record['Performer']
     Song = record['Song']
