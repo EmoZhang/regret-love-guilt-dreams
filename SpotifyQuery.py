@@ -2,6 +2,7 @@ import time
 import base64
 from bson import json_util as json
 import requests
+from pymongo import MongoClient
 
 
 def check_rate_limiting(r):
@@ -48,11 +49,10 @@ class AudioFeatures:
                 pass
             else:
                 raise RuntimeError('Authorization failed')
-        self.id = ''
         self.query = ''
 
     # Search a song
-    def search(self, performer='', song=''):
+    def search(self, performer, song):
         params = dict((
             ('q', 'artist:{} track:{}'.format(performer, song)),
             ('type', 'track'),
@@ -60,26 +60,58 @@ class AudioFeatures:
             ('limit', '1'),
         ))
         self.query = params['q']
+
+        def make_query(performer, song, round_flag):
+            song_ = song.split(' (')[0].replace('F*ck', 'Fuck').replace('N****z', 'Niggaz').replace('S**t', 'Shit')
+            performer_ = performer.split(' Featuring ')[0].split(' & ')[0].split(',')[0].split(' x ')[0].split(
+                ' X ')[0].split(' / ')[0].split(' Co-Starring ')[0].split(' With ')[0].split(' Duet With ')[
+                0].split(' vs ')[0].replace("'n'", " 'n' ").split(' (')[0].split(' Vs. ')[0]
+            if round_flag == 1:
+                query = '{} {}'.format(performer, song)
+            elif round_flag == 2:
+                query = 'artist:{} track:{}'.format(performer_, song_)
+            else:
+                query = '{} {}'.format(performer_, song_)
+            return query
+
+        round_flag = 0
         while True:
             search_result = requests.get('https://api.spotify.com/v1/search', headers=self.headers, params=params)
             rate = check_rate_limiting(search_result)
-            if rate is None:
-                self.id = search_result.json()['tracks']['items'][0]['uri'].split(':')[2]
-                break
-            elif rate == 1:
-                pass
+            if round_flag in [0, 1, 2]:
+                if rate is None:
+                    if search_result.json()['tracks']['total'] == 0:
+                        params['q'] = make_query(performer=performer, song=song, round_flag=round_flag)
+                        round_flag += 1
+                    else:
+                        track_id = search_result.json()['tracks']['items'][0]['uri'].split(':')[2]
+                        song_name = search_result.json()['tracks']['items'][0]['name']
+                        performer_name = ','.join(
+                            [item['name'] for item in search_result.json()['tracks']['items'][0]['artists']])
+                        return track_id, song_name, performer_name
+                elif rate == 1:
+                    pass
+                else:
+                    self.error(genre='search', info=rate)
+                    break
             else:
-                with open('search_error.txt', mode='a', encoding='utf8') as f:
-                    f.write(self.query)
-                    f.write('\n')
-                    f.write(json.dumps(rate))
-                    f.write('\n')
-                return 1
+                if rate is None:
+                    if search_result.json()['tracks']['total'] == 0:
+                        self.error(genre='search', info=rate)
+                        break
+                    else:
+                        track_id = search_result.json()['tracks']['items'][0]['uri'].split(':')[2]
+                        return track_id
+                elif rate == 1:
+                    pass
+                else:
+                    self.error(genre='search', info=rate)
+                    break
 
     # Get Audio Features for a Track
-    def get_audio_features(self):
+    def get_audio_features(self, track_id):
         while True:
-            track_features = requests.get('https://api.spotify.com/v1/audio-features/{}'.format(self.id),
+            track_features = requests.get('https://api.spotify.com/v1/audio-features/{}'.format(track_id),
                                           headers=self.headers)
             rate = check_rate_limiting(track_features)
             if rate is None:
@@ -87,41 +119,37 @@ class AudioFeatures:
             elif rate == 1:
                 pass
             else:
-                with open('af_error.txt', mode='a', encoding='utf8') as f:
-                    f.write(self.query)
-                    f.write('\n')
-                    f.write(json.dumps(rate))
-                    f.write('\n')
+                self.error(genre='features', info=rate)
                 break
 
-            # {'acousticness': 2.86e-05,
-            #  'analysis_url': 'https://api.spotify.com/v1/audio-analysis/5ghIJDpPoe3CfHMGu71E6T',
-            #  'danceability': 0.516,
-            #  'duration_ms': 301920,
-            #  'energy': 0.906,
-            #  'id': '5ghIJDpPoe3CfHMGu71E6T',
-            #  'instrumentalness': 0.000101,
-            #  'key': 1,
-            #  'liveness': 0.105,
-            #  'loudness': -4.525,
-            #  'mode': 1,
-            #  'speechiness': 0.0658,
-            #  'tempo': 116.775,
-            #  'time_signature': 4,
-            #  'track_href': 'https://api.spotify.com/v1/tracks/5ghIJDpPoe3CfHMGu71E6T',
-            #  'type': 'audio_features',
-            #  'uri': 'spotify:track:5ghIJDpPoe3CfHMGu71E6T',
-            #  'valence': 0.728}
+    def error(self, genre, info):
+        with open('error_{}.txt'.format(genre), mode='a', encoding='utf8') as f:
+            f.write(self.query)
+            f.write('\n')
+            f.write(json.dumps(info))
+            f.write('\n')
 
 
 with open('client.txt', mode='r', encoding='utf8') as c:
     client_id, client_secret = c.read().split('\n')
 s = AudioFeatures(client_id, client_secret)
 record_list = [1]
-for i in record_list:
+client = MongoClient(host='localhost', port=27017)
+db = client['Billboard']
+collection = db['Sample']
 
-    search_status = s.search(performer='Lana Del Rey', song='Norman Fucking Rockwell')
-    if search_status is None:
-        audio_features = s.get_audio_features()
-        if audio_features is not None:
-            pass  # wait for further supplements
+records = collection.find({'audio_features': None})
+for idx, record in enumerate(records):
+    Performer = record['Performer']
+    Song = record['Song']
+    search_result = s.search(performer=Performer, song=Song)
+    if search_result:
+        track_id, song_name, performer_name = search_result
+        if track_id:
+            audio_features = s.get_audio_features(track_id=track_id)
+            if audio_features:
+                collection.update_one({'Song': Song, 'Performer': Performer}, {
+                    '$set': {'name_spotify': song_name, 'artists_spotify': performer_name,
+                             'audio_features': audio_features}})
+                print(idx + 1)
+                # print(audio_features)

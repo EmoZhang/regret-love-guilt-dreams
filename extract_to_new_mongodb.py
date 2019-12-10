@@ -29,13 +29,16 @@ for i in f:
             })
     except KeyError:
         pass
-love_tags = ['Sex', 'Seduction', 'Romantic Evening', 'In Love', 'New Love', 'Wedding', 'Romance']
-breakup_tags = ['D-I-V-O-R-C-E', 'Breakup']
+# love_tags = ['Sex', 'Seduction', 'Romantic Evening', 'In Love', 'New Love', 'Wedding', 'Romance']
+# breakup_tags = ['D-I-V-O-R-C-E', 'Breakup']
+#
+#
+# for record in record_list:
+#     for tag in record['tags']:
+#         if tag in love_tags:
+#             record['class'] = 'love'
+#         if tag in breakup_tags:
+#             record['class_'] = 'breakup'
+collection3 = db['Sample']
+# collection3.insert_many(record_list)
 
-
-for record in record_list:
-    for tag in record['tags']:
-        if tag in love_tags:
-            record['class'] = 'love'
-        if tag in breakup_tags:
-            record['class_'] = 'breakup'
