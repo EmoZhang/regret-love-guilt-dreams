@@ -11,18 +11,18 @@ breakup_tags = ['D-I-V-O-R-C-E', 'Breakup']
 
 
 def update_class(song, performer, class_):
-    collection.update_one({'Song': song, 'Performer': performer}, {'$set': {'class': class_}})
+    collection.update_one({'name': song, 'artists': performer}, {'$set': {'class': class_}})
 
 
 for record in f:
-    for tag in record['Tags']:
+    for tag in record['tags']:
         if tag in love_tags and tag in breakup_tags:
-            if record['Song'] == 'Find Your Love':
-                update_class(song=record['Song'], performer=record['Performer'], class_='Love')
+            if record['song'] == 'Find Your Love':
+                update_class(song=record['name'], performer=record['artists'], class_='Love')
             else:
-                update_class(song=record['Song'], performer=record['Performer'], class_='Breakup')
+                update_class(song=record['name'], performer=record['artists'], class_='Breakup')
         else:
             if tag in love_tags:
-                update_class(song=record['Song'], performer=record['Performer'], class_='Love')
+                update_class(song=record['name'], performer=record['artists'], class_='Love')
             if tag in breakup_tags:
-                update_class(song=record['Song'], performer=record['Performer'], class_='Breakup')
+                update_class(song=record['name'], performer=record['artists'], class_='Breakup')

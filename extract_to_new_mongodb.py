@@ -15,17 +15,17 @@ for i in f:
         tags = i['tags']
         if len(result) == 0:
             record_list.append({
-                'Performer': Performer,
-                'Song': Song,
-                'Tags': tags,
-                'Type': 'Non-hit'
+                'artists': Performer,
+                'name': Song,
+                'tags': tags,
+                'type': 'Non-hit'
             })
         else:
             record_list.append({
-                'Performer': Performer,
-                'Song': Song,
-                'Tags': tags,
-                'Type': 'Hit'
+                'artists': Performer,
+                'name': Song,
+                'tags': tags,
+                'type': 'Hit'
             })
     except KeyError:
         pass

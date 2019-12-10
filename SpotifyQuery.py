@@ -140,15 +140,15 @@ collection = db['Sample']
 
 records = collection.find({'audio_features': None, 'class': {'$exists': True}})
 for idx, record in enumerate(records):
-    Performer = record['Performer']
-    Song = record['Song']
+    Performer = record['artists']
+    Song = record['name']
     search_result = s.search(performer=Performer, song=Song)
     if search_result:
         track_id, song_name, performer_name = search_result
         if track_id:
             audio_features = s.get_audio_features(track_id=track_id)
             if audio_features:
-                collection.update_one({'Song': Song, 'Performer': Performer}, {
+                collection.update_one({'name': Song, 'artists': Performer}, {
                     '$set': {'name_spotify': song_name, 'artists_spotify': performer_name,
                              'audio_features': audio_features}})
                 print(idx + 1)
