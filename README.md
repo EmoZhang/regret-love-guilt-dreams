@@ -2,6 +2,14 @@
 
 （简单介绍一下情况，我姑妄说之您姑妄听之）
 
+- [Spotify 数据报告](#spotify-数据报告)
+  * [数据获取策略](#数据获取策略)
+  * [标签聚类](#标签聚类)
+  * [数据清洗](#数据清洗)
+  * [数据概览](#数据概览)
+  * [TODO](#todo)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 
 ## 数据获取策略
@@ -49,17 +57,7 @@ Spotify Web API 提供的（有用的） Audio Features 字段包括以下 13 �
 | time_signature   | int        | An estimated overall time signature of a track. The time signature (meter) is a notational convention to specify how many beats are in each bar (or measure). |
 | valence          | float      | A measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track. Tracks with high valence sound more positive (e.g. happy, cheerful, euphoric), while tracks with low valence sound more negative (e.g. sad, depressed, angry). |
 
-### 样本总体
-
-![whole_tag_clustering](https://raw.githubusercontent.com/EmoZhang/regret-love-guilt-dreams/dev/pics/whole_tag_clustering.png)
-
-### Love Songs
-
-![hit_tag_clustering](https://raw.githubusercontent.com/EmoZhang/regret-love-guilt-dreams/dev/pics/hit_tag_clustering.png)
-
-### Breakup Songs
-
-![hit_tag_clustering](https://raw.githubusercontent.com/EmoZhang/regret-love-guilt-dreams/dev/pics/non_hit_tag_clustering.png)
-
 ## TODO
 
+1. 清洗数据
+2. 机器学习（一共两百多样本，love一百多，breakup不到一百，再取1/4做测试集，我们的机器真幸福，没啥学习压力👌

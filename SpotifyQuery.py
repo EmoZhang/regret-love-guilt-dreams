@@ -101,7 +101,10 @@ class AudioFeatures:
                         break
                     else:
                         track_id = search_result.json()['tracks']['items'][0]['uri'].split(':')[2]
-                        return track_id
+                        song_name = search_result.json()['tracks']['items'][0]['name']
+                        performer_name = ', '.join(
+                            [item['name'] for item in search_result.json()['tracks']['items'][0]['artists']])
+                        return track_id, song_name, performer_name
                 elif rate == 1:
                     pass
                 else:
@@ -122,6 +125,27 @@ class AudioFeatures:
                 self.error(genre='features', info=rate)
                 break
 
+    # Get Meta Info for a Track
+    def get_a_track(self, track_id):
+        while True:
+            track_meta = requests.get('https://api.spotify.com/v1/tracks/{}'.format(track_id),
+                                      headers=self.headers)
+            rate = check_rate_limiting(track_meta)
+            if rate is None:
+                if track_meta is None:
+                    self.error(genre='track', info=rate)
+                    break
+                else:
+                    song_name = track_meta.json()['name']
+                    performer_name = ', '.join(
+                        [item['name'] for item in track_meta.json()['artists']])
+                    return song_name, performer_name
+            elif rate == 1:
+                pass
+            else:
+                self.error(genre='track', info=rate)
+                break
+
     def error(self, genre, info):
         with open('error_{}.txt'.format(genre), mode='a', encoding='utf8') as f:
             f.write(self.query)
@@ -130,26 +154,31 @@ class AudioFeatures:
             f.write('\n')
 
 
-with open('client.txt', mode='r', encoding='utf8') as c:
-    client_id, client_secret = c.read().split('\n')
-s = AudioFeatures(client_id, client_secret)
-record_list = [1]
-client = MongoClient(host='localhost', port=27017)
-db = client['Billboard']
-collection = db['Sample']
+def main():
+    with open('client.txt', mode='r', encoding='utf8') as c:
+        client_id, client_secret = c.read().split('\n')
+    s = AudioFeatures(client_id, client_secret)
+    record_list = [1]
+    client = MongoClient(host='localhost', port=27017)
+    db = client['Billboard']
+    collection = db['Sample']
 
-records = collection.find({'audio_features': None, 'class': {'$exists': True}})
-for idx, record in enumerate(records):
-    Performer = record['artists']
-    Song = record['name']
-    search_result = s.search(performer=Performer, song=Song)
-    if search_result:
-        track_id, song_name, performer_name = search_result
-        if track_id:
-            audio_features = s.get_audio_features(track_id=track_id)
-            if audio_features:
-                collection.update_one({'name': Song, 'artists': Performer}, {
-                    '$set': {'name_spotify': song_name, 'artists_spotify': performer_name,
-                             'audio_features': audio_features}})
-                print(idx + 1)
-                # print(audio_features)
+    records = collection.find({'audio_features': None, 'class': {'$exists': True}})
+    for idx, record in enumerate(records):
+        Performer = record['artists']
+        Song = record['name']
+        search_result = s.search(performer=Performer, song=Song)
+        if search_result:
+            track_id, song_name, performer_name = search_result
+            if track_id:
+                audio_features = s.get_audio_features(track_id=track_id)
+                if audio_features:
+                    collection.update_one({'name': Song, 'artists': Performer}, {
+                        '$set': {'name_spotify': song_name, 'artists_spotify': performer_name,
+                                 'audio_features': audio_features}})
+                    print(idx + 1)
+                    # print(audio_features)
+
+
+if __name__ == '__main__':
+    main()
