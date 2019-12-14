@@ -3,7 +3,7 @@ from pymongo import MongoClient
 import requests
 import SpotifyQuery
 
-with open('client.txt', mode='r', encoding='utf8') as c:
+with open('client_1.txt', mode='r', encoding='utf8') as c:
     client_id, client_secret = c.read().split('\n')
 s = SpotifyQuery.AudioFeatures(client_id, client_secret)
 

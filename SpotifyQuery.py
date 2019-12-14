@@ -155,15 +155,20 @@ class AudioFeatures:
 
 
 def main():
-    with open('client.txt', mode='r', encoding='utf8') as c:
+    client_No = input('client No.: ')
+    d = {
+        '1': '$gt',
+        '2': '$lte'
+    }
+    with open('client_{}.txt'.format(client_No), mode='r', encoding='utf8') as c:
         client_id, client_secret = c.read().split('\n')
     s = AudioFeatures(client_id, client_secret)
     record_list = [1]
     client = MongoClient(host='localhost', port=27017)
     db = client['Billboard']
-    collection = db['Sample']
+    collection = db['ten_year']
 
-    records = collection.find({'audio_features': None, 'class': {'$exists': True}})
+    records = collection.find({'audio_features': None, 'index': {'{}'.format(d[client_No]): 2160}})
     for idx, record in enumerate(records):
         Performer = record['artists']
         Song = record['name']
