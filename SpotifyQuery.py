@@ -3,13 +3,14 @@ import base64
 from bson import json_util as json
 import requests
 from pymongo import MongoClient
+from pymongo.errors import CursorNotFound
 
 
 def check_rate_limiting(r):
     if r.status_code == 200:
         pass
     elif r.status_code == 429:
-        sleep_time = r.headers['Retry-After']
+        sleep_time = int(r.headers['Retry-After'])
         print('Rate Limiting reached. Sleep for {}'.format(sleep_time))
         time.sleep(sleep_time)
         return 1
@@ -155,11 +156,12 @@ class AudioFeatures:
 
 
 def main():
-    client_No = input('client No.: ')
-    d = {
-        '1': '$gt',
-        '2': '$lte'
-    }
+    threads = 1
+    if threads == 1:
+        client_No = 0
+    else:
+        client_No = int(input('client No.: '))
+
     with open('client_{}.txt'.format(client_No), mode='r', encoding='utf8') as c:
         client_id, client_secret = c.read().split('\n')
     s = AudioFeatures(client_id, client_secret)
@@ -168,21 +170,37 @@ def main():
     db = client['Billboard']
     collection = db['ten_year']
 
-    records = collection.find({'audio_features': None, 'index': {'{}'.format(d[client_No]): 2160}})
-    for idx, record in enumerate(records):
-        Performer = record['artists']
-        Song = record['name']
-        search_result = s.search(performer=Performer, song=Song)
-        if search_result:
-            track_id, song_name, performer_name = search_result
-            if track_id:
-                audio_features = s.get_audio_features(track_id=track_id)
-                if audio_features:
-                    collection.update_one({'name': Song, 'artists': Performer}, {
-                        '$set': {'name_spotify': song_name, 'artists_spotify': performer_name,
-                                 'audio_features': audio_features}})
-                    print(idx + 1)
-                    # print(audio_features)
+    interval = len(list(collection.find())) // threads
+    if client_No == 0:
+        filter_ = {'$gte': (threads - 1) * interval + 1}
+    else:
+        filter_ = {'$gte': (client_No - 1) * interval + 1, '$lte': client_No * interval}
+
+    while True:
+        try:
+            records = collection.find({'audio_features': None, 'index': filter_})
+            for idx, record in enumerate(records):
+                Performer = record['artists']
+                Song = record['name']
+                while True:
+                    try:
+                        search_result = s.search(performer=Performer, song=Song)
+                        if search_result:
+                            track_id, song_name, performer_name = search_result
+                            if track_id:
+                                audio_features = s.get_audio_features(track_id=track_id)
+                                if audio_features:
+                                    collection.update_one({'name': Song, 'artists': Performer}, {
+                                        '$set': {'name_spotify': song_name, 'artists_spotify': performer_name,
+                                                 'audio_features': audio_features}})
+                                    print(idx + 1)
+                                    # print(audio_features)
+                        break
+                    except requests.exceptions.ConnectionError:
+                        pass
+            break
+        except CursorNotFound:
+            pass
 
 
 if __name__ == '__main__':

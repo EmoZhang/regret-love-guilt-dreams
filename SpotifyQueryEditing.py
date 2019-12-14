@@ -9,20 +9,15 @@ s = SpotifyQuery.AudioFeatures(client_id, client_secret)
 
 client = MongoClient(host='localhost', port=27017)
 db = client['Billboard']
-collection = db['Sample']
-object_ids_str = """5def6aa254d79fcf0de3ec92
-5def6aa254d79fcf0de3ed22
-5def6aa254d79fcf0de3ed91
-5def6aa254d79fcf0de3eda3
-5def6aa254d79fcf0de3ee3f
-5def6aa254d79fcf0de3ee4c"""
+
+collection = db['ten_year']
+
+object_ids_str = """"""
+
 object_ids = object_ids_str.split('\n')
-URIs_str = """spotify:track:48td6xvpokdYwvbl3JIiXP
-spotify:track:0a4HnQAiD08Yg8z30yfPhI
-spotify:track:2Yia0Gh4n61fPAjrNE5i2t
-spotify:track:6zGrmt2Ico8vRx8oDemgl6
-spotify:track:6fmeXejj4CNkAQ78yao7oE
-spotify:track:3VCWhe7AtBrkhour9t6dq6"""
+
+URIs_str = """"""
+
 URIs = [i.replace('spotify:track:', '') for i in URIs_str.split('\n')]
 
 for idx, track_id in enumerate(URIs):
