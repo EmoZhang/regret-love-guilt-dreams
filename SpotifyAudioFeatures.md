@@ -16,6 +16,7 @@
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
+部分内容引用自 [Spotify Web API 文档](https://developer.spotify.com/documentation/web-api/reference-beta/#object-audiofeaturesobject)。
 
 Spotify Web API 提供的（有用的） Audio Features 字段包括以下 13 个：
 
@@ -168,6 +169,7 @@ Loudness is the quality of a sound that is the primary psychological correlate o
 （实在不晓得怎么翻译）。浮点数
 
 <blockquote>A measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track. Tracks with high valence sound more positive (e.g. happy, cheerful, euphoric), while tracks with low valence sound more negative (e.g. sad, depressed, angry).</blockquote>
+
 
 这个取值从 0.0 到 1.0 的参数描述的是一首歌所传达的“积极性”。
 
