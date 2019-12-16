@@ -10,8 +10,8 @@ query = {
 }
 df = json_normalize(list(collection.find(query)))
 df.columns = [col.replace('audio_features.', '') for col in df.columns]
-df.drop(['analysis_url', 'track_href', 'type', '_id', 'artists_spotify', 'name_spotify'], axis=1)
-df = df[['id', 'class', 'artists', 'name', 'acousticness', 'danceability',
+# df.drop(['analysis_url', 'track_href', 'type', '_id', 'artists_spotify', 'name_spotify'], axis=1)
+df = df[['_id', 'class', 'artists', 'name', 'acousticness', 'danceability',
          'duration_ms', 'energy', 'instrumentalness', 'liveness', 'loudness', 'speechiness', 'tempo', 'valence', 'mode',
          'key', 'time_signature']]
 # df = df[['_id', 'class', 'artists', 'artists_spotify', 'name', 'name_spotify']]
