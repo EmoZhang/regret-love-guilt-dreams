@@ -80,7 +80,7 @@ Acousticness 则是一个从 0.0 到 1.0 的信度，描述的是一首歌多大
 
 调。整数。
 
-<blockquote>The key the track is in. Integers map to pitches using standard [Pitch Class notation](https://en.wikipedia.org/wiki/Pitch_class). E.g. 0 = C, 1 = C♯/D♭, 2 = D, and so on.</blockquote>
+<blockquote>The key the track is in. Integers map to pitches using standard <a href="https://en.wikipedia.org/wiki/Pitch_class">Pitch Class notation</a>. E.g. 0 = C, 1 = C♯/D♭, 2 = D, and so on.</blockquote>
 
 这个歌是什么调，也就是CDEFGAB啥的。
 
