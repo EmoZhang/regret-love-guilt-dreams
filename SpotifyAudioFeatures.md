@@ -1,12 +1,29 @@
 # Spotify Audio Features 名词解释
+- [Spotify Audio Features 名词解释](#spotify-audio-features-名词解释)
+  * [acousticness](#acousticness)
+  * [danceability](#danceability)
+  * [duration_ms](#duration-ms)
+  * [energy](#energy)
+  * [instrumentalness](#instrumentalness)
+  * [key](#key)
+  * [liveness](#liveness)
+  * [loudness](#loudness)
+  * [mode](#mode)
+  * [speechiness](#speechiness)
+  * [tempo](#tempo)
+  * [time_signature](#time-signature)
+  * [valence](#valence)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 Spotify Web API 提供的（有用的） Audio Features 字段包括以下 13 个：
 
-##acousticness
+## acousticness
 
 “原声程度”。 浮点数（即小数）。
 
-A confidence measure from 0.0 to 1.0 of whether the track is acoustic. 1.0 represents high confidence the track is acoustic.
+<blockquote>A confidence measure from 0.0 to 1.0 of whether the track is acoustic. 1.0 represents high confidence the track is acoustic.
 
 首先解释一下“acoustic”这个词，指的是“原声的”或者“自然声的”，也就是所有你能想到的不插电的“传统”乐器，比如木吉他、钢琴、弦乐、铜管、木管、鼓等等。与之对应的则是插电的乐器，比如电吉他、合成器以及任何你在电音里听到的奇怪声音。
 
@@ -14,23 +31,23 @@ Acousticness 则是一个从 0.0 到 1.0 的信度，描述的是一首歌多大
 
 1.0 代表这首歌很大程度上是一首原声歌曲（比如理查德克莱德曼浪漫钢琴曲《梦中的婚礼》或者《南山南》之类的：））。
 
-##danceability
+## danceability
 
 “可跳舞性”。 浮点数。
 
-Danceability describes how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity. A value of 0.0 is least danceable and 1.0 is most danceable.
+<blockquote>Danceability describes how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity. A value of 0.0 is least danceable and 1.0 is most danceable.
 
 顾名思义指的就是一首歌有多适合跳舞。
 
 这个指标基于各种音乐因素，比如节拍、节奏有多稳定、拍子有多猛，以及整体上是不是很有规律（跳舞嘛当然整首歌动词打次最适合）。
 
-0.0 表示你可憋蹦了，1.0 表示嗨就完了。
+0.0 表示宁可憋蹦了，1.0 表示好嗨哦。
 
-##duration_ms
+## duration_ms
 
 时长。整数。
 
-The duration of the track in milliseconds.
+<blockquote>The duration of the track in milliseconds.
 
 没啥可说的。单位毫秒。
 
@@ -38,7 +55,7 @@ The duration of the track in milliseconds.
 
 能量。浮点数。
 
-Energy is a measure from 0.0 to 1.0 and represents a perceptual measure of intensity and activity. Typically, energetic tracks feel fast, loud, and noisy. For example, death metal has high energy, while a Bach prelude scores low on the scale. Perceptual features contributing to this attribute include dynamic range, perceived loudness, timbre, onset rate, and general entropy.
+<blockquote>Energy is a measure from 0.0 to 1.0 and represents a perceptual measure of intensity and activity. Typically, energetic tracks feel fast, loud, and noisy. For example, death metal has high energy, while a Bach prelude scores low on the scale. Perceptual features contributing to this attribute include dynamic range, perceived loudness, timbre, onset rate, and general entropy.
 
 这个测度取值从 0.0 到 1.0，代表的是一首歌在感知层面上有多强烈/有多猛。
 
@@ -50,7 +67,7 @@ Energy is a measure from 0.0 to 1.0 and represents a perceptual measure of inten
 
 “纯音乐程度”。浮点数
 
-Predicts whether a track contains no vocals. “Ooh” and “aah” sounds are treated as instrumental in this context. Rap or spoken word tracks are clearly “vocal”. The closer the instrumentalness value is to 1.0, the greater likelihood the track contains no vocal content. Values above 0.5 are intended to represent instrumental tracks, but confidence is higher as the value approaches 1.0.
+<blockquote>Predicts whether a track contains no vocals. “Ooh” and “aah” sounds are treated as instrumental in this context. Rap or spoken word tracks are clearly “vocal”. The closer the instrumentalness value is to 1.0, the greater likelihood the track contains no vocal content. Values above 0.5 are intended to represent instrumental tracks, but confidence is higher as the value approaches 1.0.
 
 还是先解释一下“instrumental”，也就是所谓“纯音乐”或者类似“伴奏带”的形容词。
 
@@ -62,7 +79,7 @@ Predicts whether a track contains no vocals. “Ooh” and “aah” sounds are 
 
 调。整数。
 
-The key the track is in. Integers map to pitches using standard [Pitch Class notation](https://en.wikipedia.org/wiki/Pitch_class). E.g. 0 = C, 1 = C♯/D♭, 2 = D, and so on.
+<blockquote>The key the track is in. Integers map to pitches using standard [Pitch Class notation](https://en.wikipedia.org/wiki/Pitch_class). E.g. 0 = C, 1 = C♯/D♭, 2 = D, and so on.
 
 这个歌是什么调，也就是CDEFGAB啥的。
 
@@ -72,7 +89,7 @@ The key the track is in. Integers map to pitches using standard [Pitch Class not
 
 “现场程度”。浮点数。
 
-Detects the presence of an audience in the recording. Higher liveness values represent an increased probability that the track was performed live. A value above 0.8 provides strong likelihood that the track is live.
+<blockquote>Detects the presence of an audience in the recording. Higher liveness values represent an increased probability that the track was performed live. A value above 0.8 provides strong likelihood that the track is live.
 
 还是解释一下“live”，也就是“现场版”的意思。
 
@@ -84,7 +101,7 @@ Detects the presence of an audience in the recording. Higher liveness values rep
 
 响度。浮点数。
 
-The overall loudness of a track in decibels (dB). Loudness values are averaged across the entire track and are useful for comparing relative loudness of tracks. Loudness is the quality of a sound that is the primary psychological correlate of physical strength (amplitude). Values typical range between -60 and 0 db.
+<blockquote>The overall loudness of a track in decibels (dB). Loudness values are averaged across the entire track and are useful for comparing relative loudness of tracks. Loudness is the quality of a sound that is the primary psychological correlate of physical strength (amplitude). Values typical range between -60 and 0 db.
 
 一首歌总体的响度，单位分贝（dB）。这个指标是整首歌的平均响度，可以用来比较不同歌曲的相对响度。
 
@@ -94,6 +111,8 @@ Loudness is the quality of a sound that is the primary psychological correlate o
 
 调性。整数。
 
+<blockquote>Mode indicates the modality (major or minor) of a track, the type of scale from which its melodic content is derived. Major is represented by 1 and minor is 0.
+
 调性嘛指的就是大调/小调，也就是这首歌是基于什么样的音阶（别管了）。
 
 这也是一个做好了标签编码的分类变量，1 代表大调，0 代表小调。
@@ -102,7 +121,7 @@ Loudness is the quality of a sound that is the primary psychological correlate o
 
 “是讲话的程度”（我实在翻译不出）。浮点数。
 
-Speechiness detects the presence of spoken words in a track. The more exclusively speech-like the recording (e.g. talk show, audio book, poetry), the closer to 1.0 the attribute value. Values above 0.66 describe tracks that are probably made entirely of spoken words. Values between 0.33 and 0.66 describe tracks that may contain both music and speech, either in sections or layered, including such cases as rap music. Values below 0.33 most likely represent music and other non-speech-like tracks.
+<blockquote>Speechiness detects the presence of spoken words in a track. The more exclusively speech-like the recording (e.g. talk show, audio book, poetry), the closer to 1.0 the attribute value. Values above 0.66 describe tracks that are probably made entirely of spoken words. Values between 0.33 and 0.66 describe tracks that may contain both music and speech, either in sections or layered, including such cases as rap music. Values below 0.33 most likely represent music and other non-speech-like tracks.
 
 这个参数检测的是一首歌里是否有“讲话”存在。
 
@@ -112,7 +131,7 @@ Speechiness detects the presence of spoken words in a track. The more exclusivel
 
 （乐曲的）速度。浮点数。
 
-The overall estimated tempo of a track in beats per minute (BPM). In musical terminology, tempo is the speed or pace of a given piece and derives directly from the average beat duration.
+<blockquote>The overall estimated tempo of a track in beats per minute (BPM). In musical terminology, tempo is the speed or pace of a given piece and derives directly from the average beat duration.
 
 一首歌 BPM 的总体估计值。BPM 就是 beats per minute （每分钟的拍数）的缩写，比如每分钟 60 拍就是挺慢挺悠扬的一首歌，120 拍就蛮快蛮活泼的。有一种金属乐风格叫 doom metal，极其缓慢且压抑，有的甚至慢到 30bpm 以下；有一种硬核电子乐（没错这个风格的名字本来就叫 hardcore）叫 speedcore，极其快，一般都要在 300bpm 以上，超过 1000bpm 之后就有了新名字叫 extratone，我实在不知道这玩意咋蹦。
 
@@ -121,6 +140,8 @@ The overall estimated tempo of a track in beats per minute (BPM). In musical ter
 ## time_signature
 
 拍号。整数。
+
+<blockquote>An estimated overall time signature of a track. The time signature (meter) is a notational convention to specify how many beats are in each bar (or measure).
 
 拍号是一种用来具体说明每小节有多少拍的标记法则。
 
@@ -134,7 +155,7 @@ The overall estimated tempo of a track in beats per minute (BPM). In musical ter
 
 （实在不晓得怎么翻译）。浮点数
 
-A measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track. Tracks with high valence sound more positive (e.g. happy, cheerful, euphoric), while tracks with low valence sound more negative (e.g. sad, depressed, angry).
+<blockquote>A measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track. Tracks with high valence sound more positive (e.g. happy, cheerful, euphoric), while tracks with low valence sound more negative (e.g. sad, depressed, angry).
 
 这个取值从 0.0 到 1.0 的参数描述的是一首歌所传达的“积极性”。
 
