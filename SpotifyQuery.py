@@ -52,7 +52,7 @@ class AudioFeatures:
                 raise RuntimeError('Authorization failed')
         self.query = ''
 
-    # Search a song
+    # Search a song, limit is 1
     def search(self, performer, song):
         params = dict((
             ('q', 'artist:{} track:{}'.format(performer, song)),
@@ -85,11 +85,7 @@ class AudioFeatures:
                         params['q'] = make_query(performer=performer, song=song, round_flag=round_flag)
                         round_flag += 1
                     else:
-                        track_id = search_result.json()['tracks']['items'][0]['uri'].split(':')[2]
-                        song_name = search_result.json()['tracks']['items'][0]['name']
-                        performer_name = ', '.join(
-                            [item['name'] for item in search_result.json()['tracks']['items'][0]['artists']])
-                        return track_id, song_name, performer_name
+                        return search_result.json()
                 elif rate == 1:
                     pass
                 else:
@@ -101,11 +97,7 @@ class AudioFeatures:
                         self.error(genre='search', info=rate)
                         break
                     else:
-                        track_id = search_result.json()['tracks']['items'][0]['uri'].split(':')[2]
-                        song_name = search_result.json()['tracks']['items'][0]['name']
-                        performer_name = ', '.join(
-                            [item['name'] for item in search_result.json()['tracks']['items'][0]['artists']])
-                        return track_id, song_name, performer_name
+                        return search_result.json()
                 elif rate == 1:
                     pass
                 else:
@@ -137,14 +129,51 @@ class AudioFeatures:
                     self.error(genre='track', info=rate)
                     break
                 else:
-                    song_name = track_meta.json()['name']
-                    performer_name = ', '.join(
-                        [item['name'] for item in track_meta.json()['artists']])
-                    return song_name, performer_name
+                    return track_meta.json()
             elif rate == 1:
                 pass
             else:
                 self.error(genre='track', info=rate)
+                break
+
+    # Get Meta Info for Several Tracks
+    def get_several_tracks(self, track_ids: list):
+        while True:
+            params = dict((
+                ('ids', ','.join(track_ids)),
+            ))
+            tracks_meta = requests.get('https://api.spotify.com/v1/tracks', headers=self.headers, params=params)
+            rate = check_rate_limiting(tracks_meta)
+            if rate is None:
+                if tracks_meta is None:
+                    self.error(genre='tracks', info=rate)
+                    break
+                else:
+                    return tracks_meta.json()
+            elif rate == 1:
+                pass
+            else:
+                self.error(genre='tracks', info=rate)
+                break
+
+    # Get Meta Info for Several Albums
+    def get_several_albums(self, album_ids: list):
+        while True:
+            params = dict((
+                ('ids', ','.join(album_ids)),
+            ))
+            albums_meta = requests.get('https://api.spotify.com/v1/albums', headers=self.headers, params=params)
+            rate = check_rate_limiting(albums_meta)
+            if rate is None:
+                if albums_meta is None:
+                    self.error(genre='albums', info=rate)
+                    break
+                else:
+                    return albums_meta.json()
+            elif rate == 1:
+                pass
+            else:
+                self.error(genre='albums', info=rate)
                 break
 
     def error(self, genre, info):
@@ -156,11 +185,11 @@ class AudioFeatures:
 
 
 def main():
-    threads = 1
+    threads = int(input('Thread amounts: '))
     if threads == 1:
         client_No = 0
     else:
-        client_No = int(input('client No.: '))
+        client_No = int(input('Client index: '))
 
     with open('client_{}.txt'.format(client_No), mode='r', encoding='utf8') as c:
         client_id, client_secret = c.read().split('\n')
@@ -169,6 +198,7 @@ def main():
     client = MongoClient(host='localhost', port=27017)
     db = client['Billboard']
     collection = db['ten_year']
+    collection_week = db['10yWeekly']
 
     interval = len(list(collection.find())) // threads
     if client_No == 0:
@@ -179,6 +209,15 @@ def main():
     while True:
         try:
             records = collection.find({'audio_features': None, 'index': filter_})
+            # records = list(collection_week.find({'Performer': {'$regex': 'Glee Cast'}}))
+            # records = [{'artists': record['Performer'], 'name': record['Song']} for record in records]
+            # r = list(collection.find({'artists': {'$regex': 'Glee Cast'}}, {'name': 1, 'artists': 1, '_id': 0}))
+            # for i in r:
+            #     try:
+            #         records.remove(i)
+            #     except ValueError:
+            #         pass
+
             for idx, record in enumerate(records):
                 Performer = record['artists']
                 Song = record['name']
@@ -186,7 +225,10 @@ def main():
                     try:
                         search_result = s.search(performer=Performer, song=Song)
                         if search_result:
-                            track_id, song_name, performer_name = search_result
+                            track_id = search_result['tracks']['items'][0]['uri'].split(':')[2]
+                            song_name = search_result['tracks']['items'][0]['name']
+                            performer_name = ', '.join(
+                                [item['name'] for item in search_result['tracks']['items'][0]['artists']])
                             if track_id:
                                 audio_features = s.get_audio_features(track_id=track_id)
                                 if audio_features:

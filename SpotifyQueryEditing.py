@@ -20,15 +20,16 @@ collection = db['ten_year']
 #
 # URIs = [i.replace('spotify:track:', '') for i in URIs_str.split('\n')]
 
-notes = pd.read_csv('cleaning.csv')
-query_df = notes[notes['note'] == '1'][['_id', 'URI']]
+notes = pd.read_csv('db_getCollection__ten_year___find___arti_1.csv')
+query_df = notes[notes['note'] == 1][['_id', 'URI']]
 object_ids = list(query_df['_id'])
 URIs = [i.replace('spotify:track:', '') for i in list(query_df['URI'])]
 
 for idx, track_id in enumerate(URIs):
     track_meta = s.get_a_track(track_id=track_id)
     if track_meta:
-        song_name, performer_name = track_meta
+        song_name = track_meta['name']
+        performer_name = ', '.join([item['name'] for item in track_meta['artists']])
         print(performer_name, ' - ', song_name)
         audio_features = s.get_audio_features(track_id=track_id)
         datum = collection.find_one({'_id': ObjectId(object_ids[idx])})
