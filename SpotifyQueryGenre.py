@@ -74,65 +74,68 @@ records = collection.find(
             {'audio_features': {'$ne': None}}
         ]
     },
-    {'_id': 1, 'audio_features.id': 1, 'artists_spotify': 1}
+    {'_id': 1, 'audio_features.id': 1, 'artists_spotify': 1, 'album': 1}
 )
 
 records = list(records)
-q = len(records) // 50
-r = len(records) % 50
-if r == 0:
-    track_threads = len(records) // 50
-else:
-    track_threads = len(records) // 50 + 1
-
+# q = len(records) // 50
+# r = len(records) % 50
+# if r == 0:
+#     track_threads = len(records) // 50
+# else:
+#     track_threads = len(records) // 50 + 1
+#
 artists = [record['artists_spotify'].split(', ')[0] for record in records]
 _ids = [record['_id'] for record in records]
-ids = [record['audio_features']['id'] for record in records]
-album_names = []
+# ids = [record['audio_features']['id'] for record in records]
+album_names = [record['album'] for record in records]
 
-for i in range(track_threads):
-    if i != track_threads - 1:
-        tracks_meta = s.get_several_tracks(track_ids=ids[50 * i: 50 * (i + 1)])
-    else:
-        tracks_meta = s.get_several_tracks(track_ids=ids[50 * i:])
-    if tracks_meta['tracks']:
-        names_part = [item['album']['name'] for item in tracks_meta['tracks']]
-        album_names.extend(names_part)
-        print(i + 1, '/', track_threads, 'track threads')
-    else:
-        raise RuntimeError('Failed to get tracks')
-print('Get tracks done')
-if len(records) != len(album_names):
-    raise ValueError('len(records) != len(tracks_list)')
+# for i in range(track_threads):
+#     while True:
+#         try:
+#             if i != track_threads - 1:
+#                 tracks_meta = s.get_several_tracks(track_ids=ids[50 * i: 50 * (i + 1)])
+#             else:
+#                 tracks_meta = s.get_several_tracks(track_ids=ids[50 * i:])
+#             if tracks_meta['tracks']:
+#                 names_part = [item['album']['name'].split(' (')[0] for item in tracks_meta['tracks']]
+#                 album_names.extend(names_part)
+#                 print(i + 1, '/', track_threads, 'track threads')
+#                 break
+#             else:
+#                 raise RuntimeError('Failed to get tracks')
+#         except:
+#             pass
+# print('Get tracks done')
+# if len(records) != len(album_names):
+#     raise ValueError('len(records) != len(album_names)')
+#
+# for i in range(len(records)):
+#     collection.update_one({'_id': _ids[i]}, {'$set': {'album': album_names[i]}})
 
-# album_threads = len(list(album_names)) // 20 + 1
 genres_list = []
 style_list = []
-# for i in range(album_threads):
-#     if i != album_threads - 1:
-#         albums_meta = s.get_several_albums(album_ids=album_ids[20 * i: 20 * (i + 1)])
-#     else:
-#         albums_meta = s.get_several_albums(album_ids=album_ids[20 * i:])
-#     if albums_meta['albums']:
-#         genres = [item['genres'] for item in albums_meta['albums']]
-#         genres_list.extend(genres)
-#         print(i + 1, '/', album_threads, 'album threads')
-#     else:
-#         raise RuntimeError('Failed to get albums')
+
 
 d = DC('BNA update/1.0')
 for i in range(len(album_names)):
-    album_info = d.get_album_info(artists[i] + ' - ' + album_names[i])
-    if album_info:
-        genres_list.append(album_info['genres'])
-        style_list.append(album_info['styles'])
-    else:
-        genres_list.append('')
-        style_list.append('')
+    while True:
+        try:
+            album_info = d.get_album_info(artists[i] + ' - ' + album_names[i])
+            if album_info:
+                genres_list.append(album_info['genres'])
+                style_list.append(album_info['styles'])
+            else:
+                genres_list.append('')
+                style_list.append('')
+            collection.update_one({'_id': _ids[i]},
+                                  {'$set': {'genres': genres_list[i], 'styles': style_list[i]}})
+            print(i + 1, '/', len(album_names), 'albums')
+            break
+        except Exception as e:
+            print(artists[i] + ' - ' + album_names[i] + ':', e)
+        pass
 
 print('Get albums done')
 if len(records) != len(genres_list) or len(records) != len(style_list):
     raise ValueError('len(records) != len(genres_list)')
-
-for i in range(len(records)):
-    collection.update_one({'_id': ObjectId(_ids[i])}, {'$set': {'genres': genres_list[i], 'styles': style_list[i]}})
