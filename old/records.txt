@@ -1,0 +1,492 @@
+2019-12-06 13:12:03<>Justin Timberlake<>Can't Stop The Feeling!<>Celebration,Cool & Cocky,Dance Party
+2019-12-06 13:12:11<>Miley Cyrus<>Party In The U.S.A.<>Celebration,Freedom,Girls Night Out,Hanging Out,Partying
+2019-12-06 13:13:27<>Bruno Mars<>24K Magic<>Cool & Cocky,Girls Night Out,Guys Night Out
+2019-12-06 13:15:46<>Lady Gaga<>Bad Romance<>Club,Heartache,In Love,Girls Night Out,Partying
+2019-12-06 13:16:53<>B.o.B Featuring Hayley Williams<>Airplanes<>Rainy Day,Reflection,Feeling Blue,Solitude
+2019-12-06 13:18:18<>Luke Bryan<>That's My Kind Of Night<>Cool & Cocky,Guys Night Out,TGIF
+2019-12-06 13:19:19<>5 Seconds Of Summer<>Amnesia<>Heartache
+2019-12-06 13:21:01<>Sam Hunt<>Leave The Night On<>Hanging Out,New Love,Partying
+2019-12-06 13:25:44<>Justin Bieber<>One Less Lonely Girl<>Heartache,Hanging Out,In Love
+2019-12-06 13:27:10<>Marshmello & Anne-Marie<>Friends<>Girls Night Out,Hanging Out,Mischievous
+2019-12-06 13:29:16<>Jesse McCartney Featuring Ludacris<>How Do You Sleep?<>Girls Night Out,Club,Heartache,In Love,Summer
+2019-12-06 13:29:23<>Fall Out Boy<>My Songs Know What You Did In The Dark (Light Em Up)<>Anger/Hostility,Exercise/Workout,Partying
+2019-12-06 13:31:44<>Sam Hunt<>Break Up In A Small Town<>Breakup,Guys Night Out,Reflection
+2019-12-06 13:31:49<>Taylor Swift<>Delicate<>In Love,New Love
+2019-12-06 13:32:18<>Luke Bryan<>Do I<>Breakup
+2019-12-06 13:34:42<>Beyonce<>7/11<>Cool & Cocky,Drinking,Exercise/Workout
+2019-12-06 13:34:50<>Beyonce Featuring The Weeknd<>6 Inch<>Cool & Cocky,Girls Night Out,Heartache
+2019-12-06 13:35:23<>Nicki Minaj<>Anaconda<>Cool & Cocky,Girls Night Out,Sex
+2019-12-06 13:38:32<>David Cook<>Permanent<>Heartache,Reflection
+2019-12-06 13:38:39<>JAY-Z<>D.O.A. (Death Of Auto-Tune)<>Feeling Blue,Autumn,Late Night,Reflection,Regret,Slow Dance,Introspection,Long Walk
+2019-12-06 13:41:00<>Jay Sean Featuring Sean Paul & Lil Jon<>Do You Remember<>Late Night,Seduction,Club,Hanging Out,Girls Night Out
+2019-12-06 13:41:16<>Taylor Swift<>Call It What You Want<>In Love
+2019-12-06 13:41:43<>Beyonce Featuring Jack White<>Don't Hurt Yourself<>Anger/Hostility,Argument,D-I-V-O-R-C-E
+2019-12-06 13:42:53<>Lady Gaga Featuring Beyonce<>Telephone<>Celebration,Club,Freedom,Partying,TGIF
+2019-12-06 13:44:39<>Jason Derulo<>Ridin' Solo<>Breakup,Cool & Cocky,Freedom
+2019-12-06 13:44:51<>Beyonce<>Run The World (Girls)<>Maverick,Politics/Society,Revolutionary
+2019-12-06 13:45:16<>Shakira<>She Wolf<>Club,Girls Night Out,Partying,Seduction,Sex,TGIF
+2019-12-06 13:46:33<>Drake<>Over<>Celebration,Cool & Cocky,Freedom,Partying,Guys Night Out
+2019-12-06 13:46:55<>Steven Tyler<>(It) Feels So Good<>Empowering,In Love
+2019-12-06 13:48:36<>Demi Lovato<>Cool For The Summer<>Pool Party
+2019-12-06 13:49:08<>Jonas Brothers<>Paranoid<>Club,Freedom,Late Night
+2019-12-06 13:50:40<>Beyonce<>Pray You Catch Me<>Feeling Blue,Heartache,Jealousy
+2019-12-06 13:52:39<>The Black Eyed Peas<>Rock That Body<>Partying,TGIF,Club,Girls Night Out,Sex
+2019-12-06 13:53:04<>Lady Gaga<>Poker Face<>Club,Girls Night Out,Late Night,Seduction,Sex,TGIF
+2019-12-06 13:54:27<>Papa Roach<>Lifeline<>Empowering,Freedom,Politics/Society
+2019-12-06 13:56:51<>Marsha Ambrosius<>Far Away<>Comfort,Despair,Pain
+2019-12-06 13:57:01<>Jazmine Sullivan<>Lions, Tigers & Bears<>Feeling Blue,Heartache,In Love,New Love
+2019-12-06 13:57:24<>Blake Shelton<>I'll Just Hold On<>Breakup,Heartache,Jealousy,Reflection,Regret
+2019-12-06 13:58:16<>Mary Mary Featuring Kierra "KiKi" Sheard<>God In Me<>Family Gatherings,Introspection,Motivation,Reflection,Solitude
+2019-12-06 13:58:34<>Mary J. Blige Featuring Drake<>Mr. Wrong<>Comfort,Healing/Comfort,Playful
+2019-12-06 13:59:11<>Jennifer Hudson<>If This Isn't Love<>Freedom,In Love,New Love
+2019-12-06 14:00:11<>Keith Urban<>Kiss A Girl<>Affection/Fondness,New Love,Relaxation
+2019-12-06 14:00:33<>Pearl Jam<>Just Breathe<>Affection/Fondness,Affirmation,Comfort,In Love,Stay in Bed,Sunday Afternoon
+2019-12-06 14:00:51<>Lee Ann Womack<>Last Call<>Breakup,Heartache,Reflection,Regret,Drinking,In Love
+2019-12-06 14:01:15<>Miley Cyrus<>Hoedown Throwdown<>Celebration,Playful,Freedom,TGIF
+2019-12-06 14:01:52<>Michael Jackson & Justin Timberlake<>Love Never Felt So Good<>Affection/Fondness,In Love,Passion
+2019-12-06 14:01:59<>Rascal Flatts<>Here Comes Goodbye<>Breakup,Heartache,Regret,In Love
+2019-12-06 14:02:05<>Boys Like Girls<>Love Drunk<>Day Driving,Summer,Breakup,Hanging Out,Heartache
+2019-12-06 14:03:55<>Rascal Flatts<>Summer Nights<>Late Night,Partying,Summer
+2019-12-06 14:03:59<>Dierks Bentley<>Sideways<>Drinking,Late Night,Seduction,Partying,Sex
+2019-12-06 14:05:28<>Daughtry<>September<>Reflection,Regret,Reminiscing
+2019-12-06 14:05:34<>Reba<>Consider Me Gone<>Breakup,D-I-V-O-R-C-E,Heartache,Regret
+2019-12-06 14:06:02<>Plain White T's<>1, 2, 3, 4<>Summer,In Love,Sunday Afternoon
+2019-12-06 14:06:48<>Easton Corbin<>A Little More Country Than That<>In Love,Relaxation,Romantic Evening
+2019-12-06 14:07:11<>Cascada<>Evacuate The Dancefloor<>Club,Partying,Pool Party,TGIF
+2019-12-06 14:08:23<>Sugarland<>It Happens<>Cool & Cocky,Empowering,Freedom
+2019-12-06 14:08:28<>Chris Young<>Gettin' You Home<>Dinner Ambiance,In Love,Relaxation,Romantic Evening
+2019-12-06 14:09:03<>Rob Thomas<>Her Diamonds<>Guys Night Out,Late Night,New Love,Reflection
+2019-12-06 14:10:54<>Eminem<>Not Afraid<>Empowering,Motivation,Victory
+2019-12-06 14:11:59<>DJ Khaled Featuring Justin Bieber, Quavo, Chance The Rapper & Lil Wayne<>I'm The One<>Pain,Regret,Tragedy
+2019-12-06 14:12:16<>The Black Eyed Peas<>I Gotta Feeling<>Partying,TGIF,Club,Girls Night Out,Sex
+2019-12-06 14:13:51<>Linkin Park<>New Divide<>Empowering,Introspection,Reflection
+2019-12-06 14:40:35<>Lady Antebellum<>Just A Kiss<>In Love,New Love,Slow Dance
+2019-12-06 14:40:38<>Drake Featuring Kanye West, Lil Wayne & Eminem<>Forever<>Cool & Cocky,Guys Night Out,Hanging Out,Victory
+2019-12-06 14:45:34<>Matthew Schuler<>Hallelujah<>Comfort,Day Driving,Playful,Relaxation
+2019-12-06 14:48:49<>Monica<>Everything To Me<>Affection/Fondness,In Love
+2019-12-06 14:48:54<>The Lonely Island Featuring T-Pain<>I'm On A Boat<>Guys Night Out,Mischievous,Vacation
+2019-12-06 14:49:04<>George Strait<>Living For The Night<>Feeling Blue,Heartache,Reflection,Regret
+2019-12-06 14:51:03<>Miley Cyrus<>Fly On The Wall<>Partying,Girls Night Out,Mischievous,Summer
+2019-12-06 14:53:03<>KIDS SEE GHOSTS<>Reborn<>Despair,Empowering,Healing/Comfort
+2019-12-06 14:55:52<>Beyonce<>Daddy Lessons<>Anniversary,Family,Heartache
+2019-12-06 14:56:19<>The Ronettes<>Sleigh Ride<>Christmas Party,Holidays,Celebration,Reunion,Winter
+2019-12-06 14:57:01<>Marshmello Featuring Khalid<>Silence<>Happiness
+2019-12-06 14:58:34<>Beyonce<>Sandcastles<>Heartache,Heartbreak,Yearning
+2019-12-06 14:58:48<>Imagine Dragons<>Believer<>Pain
+2019-12-06 14:59:38<>Taylor Swift<>22<>Girls Night Out
+2019-12-06 15:01:15<>Khalid<>Better<>Empowering,Stay in Bed,Yearning
+2019-12-06 15:04:35<>Young Money Featuring Gucci Mane<>Steady Mobbin'<>Mischievous,Partying,Playful,Freedom,Guys Night Out
+2019-12-06 15:06:04<>Kellie Pickler<>Best Days Of Your Life<>Empowering,Freedom,Girls Night Out
+2019-12-06 15:06:48<>Eazy-E<>Boyz-N-The Hood<>Cool & Cocky,Empowering,Guys Night Out,Hanging Out,Mischievous,Partying,Playful,TGIF
+2019-12-06 15:07:17<>Miranda Cosgrove<>About You Now<>Girls Night Out,Hanging Out,Partying,Playful,Summer,TGIF
+2019-12-06 15:09:14<>Taylor Swift<>Dear John<>Breakup
+2019-12-06 15:09:21<>Kelly Clarkson<>Catch My Breath<>Healing/Comfort,Hope,Late Night
+2019-12-06 15:10:27<>Green Day<>21 Guns<>Feeling Blue,Heartache,Reflection,Cool & Cocky,Empowering,Freedom,Hanging Out
+2019-12-06 15:10:59<>The Chainsmokers<>#SELFIE<>Club,Girls Night Out,Partying
+2019-12-06 13:12:32<>Alicia Keys<>Empire State Of Mind (Part II) Broken Down<>Empowering,Affirmation,Freedom,Motivation
+2019-12-06 13:16:08<>Rascal Flatts<>Love Who You Love<>Affection/Fondness,Comfort,Reflection,In Love
+2019-12-06 13:17:46<>k.d. lang<>Hallelujah (Vancouver Winter 2010 Version)<>Affirmation,Rainy Day,Reflection,Sunday Afternoon
+2019-12-06 13:19:45<>MGMT<>Kids<>Freedom,Summer,The Creative Side,Hanging Out
+2019-12-06 13:20:15<>Reba<>I Keep On Loving You<>Introspection,Late Night,Reflection
+2019-12-06 13:23:23<>Machine Gun Kelly, X Ambassadors & Bebe Rexha<>Home<>Cool & Cocky,Mischievous,Reflection
+2019-12-06 13:23:34<>Toby Keith<>Lost You Anyway<>Heartache,Reflection,Regret
+2019-12-06 13:24:20<>Lifehouse<>Halfway Gone<>Breakup,Day Driving,Freedom,Hanging Out,Solitude
+2019-12-06 13:26:38<>Luis Fonsi & Daddy Yankee Featuring Justin Bieber<>Despacito<>In Love,Passion,Seduction
+2019-12-06 13:28:54<>Luke Bryan<>Rain Is A Good Thing<>Drinking,Partying,Relaxation
+2019-12-06 13:29:20<>Brooks & Dunn Featuring Reba McEntire<>Cowgirls Don't Cry<>Feeling Blue,Heartache,Late Night
+2019-12-06 13:31:56<>Tim McGraw<>Southern Voice<>Freedom,Guys Night Out,Hanging Out
+2019-12-06 13:32:32<>Maxwell<>Pretty Wings<>Heartache,Introspection,Regret,Romantic Evening,Comfort,Feeling Blue,Late Night,Breakup
+2019-12-06 13:32:57<>Justin Moore<>Small Town USA<>Hanging Out,Relaxation
+2019-12-06 13:33:22<>Jazmine Sullivan<>Bust Your Windows<>Breakup,Feeling Blue,Heartache,Jealousy,Solitude,Regret
+2019-12-06 13:34:17<>Young Thug And Travis Scott Featuring Quavo<>Pick Up The Phone<>Cool & Cocky,Freedom,Guys Night Out,Hanging Out,Late Night,Revolutionary,The Creative Side
+2019-12-06 13:34:24<>Keith Urban<>Sweet Thing<>Affection/Fondness,New Love,Relaxation
+2019-12-06 13:34:40<>Jason Aldean<>Crazy Town<>Cool & Cocky,Freedom,Guys Night Out,TGIF
+2019-12-06 13:34:53<>David Nail<>Red Light<>Early Morning,Introspection
+2019-12-06 13:35:46<>Paramore<>Decode<>Breakup
+2019-12-06 13:36:21<>Chris Young<>Aw Naw<>Celebration,Cool & Cocky,Guys Night Out
+2019-12-06 13:36:30<>Randy Houser<>Boots On<>Drinking,Partying
+2019-12-06 13:36:51<>Clay Walker<>She Won't Be Lonely Long<>Affection/Fondness,In Love
+2019-12-06 13:37:00<>Alan Jackson<>Country Boy<>Day Driving,Freedom,Hanging Out,Road Trip
+2019-12-06 13:38:05<>Carrie Underwood Featuring Randy Travis<>I Told You So<>Breakup,Heartache,Regret
+2019-12-06 13:38:10<>Daughtry<>No Surprise<>Empowering,Hanging Out,Regret
+2019-12-06 13:38:38<>Jerrod Niemann<>Lover, Lover<>Breakup,Freedom,Heartache
+2019-12-06 13:39:45<>Zac Brown Band<>Highway 20 Ride<>Day Driving,Road Trip
+2019-12-06 13:41:10<>Beyonce<>Ego<>Girls Night Out,Empowering
+2019-12-06 13:41:15<>Martin Garrix & Bebe Rexha<>In The Name Of Love<>At the Beach,Pool Party
+2019-12-06 13:41:24<>Toby Keith<>God Love Her<>Parenthood,Reflection,Reminiscing,Freedom
+2019-12-06 13:41:29<>Dorrough<>Ice Cream Paint Job<>Day Driving,Cool & Cocky,Night Driving,Guys Night Out
+2019-12-06 13:41:56<>Trey Songz<>Neighbors Know My Name<>Late Night,Seduction,Sex,Mischievous,In Love
+2019-12-06 13:42:11<>The Fray<>Never Say Never<>Comfort,Introspection,Solitude,Feeling Blue,Heartache,Rainy Day,Reflection
+2019-12-06 13:42:45<>Shinedown<>If You Only Knew<>Feeling Blue
+2019-12-06 13:42:56<>Train<>Hey, Soul Sister<>Hanging Out,In Love,Relaxation
+2019-12-06 13:43:08<>Lady Antebellum<>I Run To You<>In Love
+2019-12-06 13:44:01<>David Guetta Featuring Kid Cudi<>Memories<>Club,Drinking,Partying,TGIF
+2019-12-06 13:45:15<>Portugal. The Man<>Feel It Still<>Politics/Society,Revolutionary
+2019-12-06 13:46:32<>Beyonce<>Halo<>Comfort,Introspection,Reflection,Feeling Blue,Heartache,Solitude,In Love
+2019-12-06 13:46:55<>Lady Antebellum<>Need You Now<>Drinking,Heartache,Reflection,Breakup
+2019-12-06 13:47:50<>Madonna Featuring Nicki Minaj & M.I.A.<>Give Me All Your Luvin'<>Mischievous,Playful
+2019-12-06 13:47:59<>Beyonce<>Hold Up<>Heartache,Jealousy,Separation
+2019-12-06 13:49:13<>Kris Allen<>Heartless<>Breakup,Heartache,Feeling Blue,Rainy Day
+2019-12-06 13:50:19<>P!nk<>Glitter In The Air<>Introspection,Reflection,Solitude
+2019-12-06 13:51:08<>Adam Lambert<>Mad World<>Feeling Blue,Rainy Day
+2019-12-06 13:51:42<>Beyonce<>Love On Top<>Happiness,In Love,Joy
+2019-12-06 13:54:48<>John Mayer<>Half Of My Heart<>Feeling Blue,Heartache,Introspection,Reflection
+2019-12-06 13:54:54<>Justin Bieber<>Favorite Girl<>In Love,Romantic Evening
+2019-12-06 13:59:21<>Drake<>Find Your Love<>Breakup,Heartache,In Love,Reflection
+2019-12-06 14:00:29<>Beyonce Featuring Kendrick Lamar<>Freedom<>Politics/Society,Protest,Revolutionary
+2019-12-06 14:03:00<>Breaking Benjamin<>I Will Not Bow<>Heartache,Jealousy,Loss/Grief
+2019-12-06 14:03:05<>Drake Featuring Lil Wayne & Young Jeezy<>I'm Going In<>Cool & Cocky,Guys Night Out,Motivation,Victory
+2019-12-06 14:03:40<>David Bowie<>Lazarus<>Loneliness
+2019-12-06 14:04:33<>Dean Martin<>Let It Snow, Let It Snow, Let It Snow<>Christmas Party,Holidays,Winter,Affection/Fondness,Comfort,In Love,Introspection,New Love
+2019-12-06 14:05:21<>Usher Featuring Nicki Minaj<>Lil Freak<>Late Night,Seduction,Sex,Mischievous,In Love
+2019-12-06 14:06:31<>Jose Feliciano<>Feliz Navidad<>Christmas Party,Holidays,Partying
+2019-12-06 14:07:26<>Ellie Goulding<>Love Me Like You Do<>Club,In Love,Sex
+2019-12-06 14:07:48<>Ludacris Featuring Nicki Minaj<>My Chick Bad<>Partying,TGIF,Cool & Cocky,Mischievous,Guys Night Out,Sex
+2019-12-06 14:08:15<>Sheryl Crow, Kid Rock & Keith Urban<>Lean On Me<>Comfort,Feeling Blue
+2019-12-06 14:08:21<>Beyonce<>Love Drought<>Hope,In Love,Regret
+2019-12-06 14:08:56<>Justin Timberlake & Matt Morris Featuring Charlie Sexton<>Hallelujah<>Comfort,Rainy Day,Reflection,Solitude
+2019-12-06 14:09:16<>Andy Williams<>It's The Most Wonderful Time Of The Year<>Celebration
+2019-12-06 14:10:32<>The Black Eyed Peas<>Imma Be<>Cool & Cocky,Empowering,Motivation,Partying
+2019-12-06 14:10:44<>Leona Lewis<>Happy<>Empowering,Girls Night Out
+2019-12-06 14:11:22<>Trey Songz Featuring Gucci Mane & Soulja Boy Tell'em<>LOL :-)<>Late Night,Seduction,Sex,Mischievous,In Love
+2019-12-06 14:12:27<>Chris Brown Featuring Lil Wayne & Swizz Beatz<>I Can Transform Ya<>Playful,Seduction,Day Driving,Guys Night Out,TGIF
+2019-12-06 14:13:38<>Rascal Flatts<>Forever<>Affection/Fondness,Reflection,Reminiscing,In Love
+2019-12-06 14:14:22<>Lil Wayne Featuring Drake & Future<>Love Me<>Club,Cool & Cocky,Sex
+2019-12-06 14:14:54<>Susan Boyle<>I Dreamed A Dream<>Introspection,Reminiscing,Sunday Afternoon,Affection/Fondness,At the Office,Dinner Ambiance,Rainy Day,Relaxation
+2019-12-06 14:15:01<>Lil Wayne<>On Fire<>Girls Night Out,Sex
+2019-12-06 14:16:54<>The All-American Rejects<>I Wanna<>In Love
+2019-12-06 14:17:57<>Ginuwine<>Last Chance<>Heartache,In Love,Reflection,Regret,Seduction
+2019-12-06 14:18:03<>Tim McGraw<>Nothin' To Die For<>Drinking,Feeling Blue,Introspection,Regret
+2019-12-06 14:18:15<>Sean Kingston<>Face Drop<>Breakup,Guys Night Out
+2019-12-06 14:19:13<>Maxwell<>Fistful Of Tears<>Feeling Blue,In Love,Solitude,Comfort,Heartache,Late Night,Reflection
+2019-12-06 14:23:25<>Colbie Caillat<>I Never Told You<>Introspection,Reflection,Regret
+2019-12-06 14:26:48<>Kenny Chesney<>Out Last Night<>Drinking,Partying
+2019-12-06 14:28:50<>OneRepublic<>All The Right Moves<>Freedom,Motivation,Victory
+2019-12-06 14:30:57<>Ludacris<>How Low<>Guys Night Out,Sex
+2019-12-06 14:32:27<>Taio Cruz Featuring Ludacris<>Break Your Heart<>Day Driving,Seduction,Breakup,Heartache,Heartbreak
+2019-12-06 14:33:31<>Pearl Jam<>The Fixer<>Affirmation,Motivation,Empowering,Revolutionary
+2019-12-06 14:33:39<>Charice Featuring Iyaz<>Pyramid<>In Love,Romantic Evening,Victory
+2019-12-06 14:33:49<>Taylor Swift<>Better Than Revenge<>Anger/Hostility
+2019-12-06 14:34:07<>Sia<>Alive<>Affection/Fondness,Cool & Cocky,In Love,New Love,Sex
+2019-12-06 14:44:20<>Beyonce<>1+1<>In Love,Passion,Seduction
+2019-12-06 14:44:30<>Rihanna Featuring Mikky Ekko<>Stay<>Heartache,Loss/Grief,Pain
+2019-12-06 14:45:30<>Beyonce<>Best Thing I Never Had<>New Love,Reflection,Wedding
+2019-12-06 14:45:46<>Matisyahu<>One Day<>Empowering,Affirmation,Long Walk,Politics/Society
+2019-12-06 14:45:51<>Miranda Lambert<>More Like Her<>Breakup,Feeling Blue,Heartache,Jealousy,Regret
+2019-12-06 14:46:17<>George Strait<>I Gotta Get To You<>In Love,Relaxation,Romantic Evening
+2019-12-06 14:48:16<>Green Day<>Know Your Enemy<>Politics/Society
+2019-12-06 14:48:22<>Shakira Featuring Lil Wayne<>Give It Up To Me<>In Love,Mischievous,Playful,Seduction
+2019-12-06 14:48:30<>Hannah Montana<>He Could Be The One<>Girls Night Out,Hanging Out,Partying,Playful,TGIF
+2019-12-06 14:48:58<>Beyonce<>Formation<>Cool & Cocky,Maverick,Revolutionary
+2019-12-06 14:49:28<>Mariah Carey<>Obsessed<>D-I-V-O-R-C-E,Breakup,Girls Night Out
+2019-12-06 14:50:12<>Ariana Grande<>God Is A Woman<>Sex
+2019-12-06 14:50:28<>Colbie Caillat<>Fallin' For You<>Affection/Fondness,Girls Night Out,New Love
+2019-12-06 14:53:06<>Train<>If It's Love<>Comfort,In Love,Reflection
+2019-12-06 14:55:44<>Blake Shelton Featuring Trace Adkins<>Hillbilly Bone<>Day Driving,Hanging Out,Road Trip
+2019-12-06 14:56:48<>Dierks Bentley<>I Wanna Make You Close Your Eyes<>In Love,Relaxation,Romantic Evening
+2019-12-06 14:57:14<>Jeremih<>Imma Star (Everywhere We Are)<>Club,Cool & Cocky,Partying,Mischievous
+2019-12-06 14:57:20<>Montgomery Gentry<>One In Every Crowd<>Celebration,Drinking,Guys Night Out
+2019-12-06 14:57:55<>Mary J. Blige<>I Am<>In Love,Introspection,Romantic Evening
+2019-12-06 14:58:26<>Ciara Featuring Justin Timberlake<>Love Sex Magic<>Club,Seduction,Sex,In Love,Exercise/Workout
+2019-12-06 14:59:48<>Trey Songz Featuring Drake<>I Invented Sex<>Late Night,Seduction,Sex,Mischievous,In Love
+2019-12-06 15:01:51<>Daddy Yankee<>Dura<>At the Beach,In Love,New Love
+2019-12-06 15:02:05<>P!nk<>Funhouse<>Empowering,Girls Night Out,Motivation
+2019-12-06 15:03:05<>Mims<>Move (If You 'W'anna)<>Club,Guys Night Out,Partying,TGIF,Cool & Cocky
+2019-12-06 15:03:46<>Theory Of A Deadman<>Not Meant To Be<>Cool & Cocky,Guys Night Out,Jealousy
+2019-12-06 15:04:37<>Juice WRLD<>All Girls Are The Same<>Breakup,Heartbreak
+2019-12-06 15:04:46<>Pitbull Featuring Akon<>Shut It Down<>Club,Cool & Cocky,Guys Night Out,Mischievous,Partying,TGIF
+2019-12-06 15:05:02<>Blake Shelton<>She Wouldn't Be Gone<>Breakup,Heartache,Jealousy,Reflection,Regret
+2019-12-06 15:05:39<>Rihanna<>Russian Roulette<>Breakup,Girls Night Out,Partying,Seduction
+2019-12-06 15:06:27<>Keith Urban<>'Til Summer Comes Around<>Affection/Fondness,Introspection,Reflection
+2019-12-06 15:06:46<>Jake Owen<>Don't Think I Can't Love You<>Mischievous,Motivation,Reflection,Comfort,Empowering,Freedom,Introspection,Affirmation
+2019-12-06 15:07:45<>Kenny Chesney<>Ain't Back Yet<>Reflection,Reminiscing
+2019-12-06 15:08:26<>George Strait<>The Breath You Take<>Family Gatherings,Reflection,Reminiscing
+2019-12-06 13:11:43<>Five For Fighting<>Chances<>Reflection,Reminiscing,Sunday Afternoon
+2019-12-06 13:12:45<>Jesse McCartney Featuring T-Pain<>Body Language<>Club,Partying,Seduction,TGIF
+2019-12-06 13:14:17<>Mary Lambert<>Secrets<>Empowering
+2019-12-06 13:14:24<>Kelly Clarkson<>People Like Us<>Empowering
+2019-12-06 13:14:31<>Sugarland<>Already Gone<>Introspection,Reflection,Regret
+2019-12-06 13:19:23<>Maxwell<>Bad Habits<>Late Night,Romantic Evening,Sex,Heartache,Comfort,Regret,Seduction
+2019-12-06 13:19:47<>Plies Featuring Chris J<>Put It On Ya<>Seduction,Sex
+2019-12-06 13:20:03<>Kings Of Leon<>Sex On Fire<>Late Night,In Love,Sex
+2019-12-06 13:20:14<>Rob Thomas<>Someday<>Feeling Blue,Heartache,Regret
+2019-12-06 13:21:00<>Zendaya<>Replay<>Celebration,Girls Night Out,Partying
+2019-12-06 13:23:30<>Beyonce<>Dance For You<>In Love,Seduction,Sex
+2019-12-06 13:23:37<>Lifehouse<>Broken<>Feeling Blue,Heartache,In Love,Introspection,Reflection,Regret,Solitude
+2019-12-06 13:23:58<>Eli Young Band<>Always The Love Songs<>In Love
+2019-12-06 13:24:33<>Three Days Grace<>Break<>Empowering,Motivation,Victory
+2019-12-06 13:26:22<>Train<>Save Me, San Francisco<>Day Driving,Hanging Out,TGIF
+2019-12-06 13:26:31<>The Black Eyed Peas<>Boom Boom Pow<>Partying,TGIF,Club,Empowering,Motivation
+2019-12-06 13:48:57<>Kris Allen<>Apologize<>Heartache,Breakup,D-I-V-O-R-C-E
+2019-12-06 13:50:08<>Orianthi<>According To You<>Girls Night Out,Heartache,Breakup,Empowering,Feeling Blue,Freedom
+2019-12-06 13:50:13<>B.o.B<>Don't Let Me Fall<>Motivation,Victory,Day Driving,Cool & Cocky
+2019-12-06 13:51:14<>Chris Brown<>Crawl<>Heartache,In Love,Victory
+2019-12-06 13:53:20<>The Fray<>Absolute<>Comfort,Introspection,Solitude,Heartache,In Love
+2019-12-06 13:53:27<>Kelly Clarkson<>Already Gone<>Breakup,Freedom,Heartache
+2019-12-06 13:55:03<>Avril Lavigne<>Alice<>Empowering
+2019-12-06 13:56:45<>Taylor Swift<>Crazier<>Comfort,In Love,New Love,Romantic Evening
+2019-12-06 13:56:50<>Miley Cyrus & Billy Ray Cyrus<>Butterfly Fly Away<>Family Gatherings,Introspection,Reflection
+2019-12-06 13:56:56<>Lady Antebellum<>Ready To Love Again<>Affection/Fondness,In Love
+2019-12-06 13:57:07<>Lady Gaga<>Alejandro<>Heartache,In Love
+2019-12-06 13:57:13<>B.o.B Featuring T.I. & Playboy Tre<>Bet I<>Cool & Cocky,Partying,TGIF,Victory
+2019-12-06 13:58:42<>Maroon 5 Featuring Cardi B<>Girls Like You<>Breakup
+2019-12-06 13:59:10<>Kelly Clarkson<>My Life Would Suck Without You<>Empowering,Girls Night Out,Motivation,Breakup,In Love
+2019-12-06 13:59:23<>The Black Eyed Peas<>Meet Me Halfway<>Breakup,Heartache,Night Driving
+2019-12-06 13:59:40<>Rihanna Featuring Jeezy<>Hard<>Celebration,Club,Partying,TGIF,Empowering,Freedom,Girls Night Out
+2019-12-06 14:00:56<>The Pussycat Dolls<>I Hate This Part<>Feeling Blue,Introspection,Late Night,Reflection,Breakup,In Love,Loss/Grief
+2019-12-06 14:01:06<>Rihanna<>Rehab<>Feeling Blue,Reflection,Solitude,Heartache
+2019-12-06 14:01:20<>Beyonce<>Diva<>Girls Night Out,Partying,Club,Sex,Empowering
+2019-12-06 14:01:26<>P!nk<>Sober<>Empowering,Girls Night Out,New Love
+2019-12-06 14:01:33<>Mario Featuring Gucci Mane & Sean Garrett<>Break Up<>Breakup,In Love,Late Night,Seduction,Sex,Heartache
+2019-12-06 14:01:49<>Carrie Underwood<>Cowboy Casanova<>Girls Night Out,New Love,Partying
+2019-12-06 14:01:59<>Rihanna<>Pour It Up<>Cool & Cocky,Drinking,TGIF
+2019-12-06 14:02:18<>P!nk<>Please Don't Leave Me<>Breakup,Empowering,Freedom
+2019-12-06 14:03:56<>Jason Aldean<>Big Green Tractor<>In Love
+2019-12-06 14:06:21<>Pitbull<>Hotel Room Service<>Club,Cool & Cocky,Girls Night Out,Guys Night Out,Partying
+2019-12-06 14:06:26<>Jason Derulo<>In My Head<>Club,TGIF
+2019-12-06 14:07:09<>Beyonce Featuring James Blake<>Forward<>Feeling Blue,Loss/Grief,Pain
+2019-12-06 14:07:42<>Cobra Starship<>Hot Mess<>Cool & Cocky,Drinking,Late Night
+2019-12-06 14:08:31<>Michael Buble<>Haven't Met You Yet<>Affection/Fondness,Summer
+2019-12-06 14:10:17<>Pitbull<>I Know You Want Me (Calle Ocho)<>Club,Cool & Cocky,Girls Night Out,Guys Night Out,Partying
+2019-12-06 14:10:22<>Mariah Carey<>I Want To Know What Love Is<>In Love,New Love
+2019-12-06 14:10:45<>3OH!3<>Hit It Again<>Seduction,Sex,Romantic Evening
+2019-12-06 14:11:16<>Paramore<>Ignorance<>Breakup
+2019-12-06 14:11:45<>Janet Featuring J. Cole<>No Sleeep<>In Love,Late Night,Seduction
+2019-12-06 14:13:43<>OneRepublic<>Good Life<>Affirmation,Comfort,Introspection,Motivation,Relaxation
+2019-12-06 14:16:47<>Taylor Swift<>New Romantics<>Freedom,Girls Night Out,Partying
+2019-12-06 14:17:34<>The Lonely Island<>J**z In My Pants<>Club,Guys Night Out,Mischievous
+2019-12-06 14:25:22<>Alicia Keys<>Doesn't Mean Anything<>Breakup,Heartache,Reflection,Regret,Solitude
+2019-12-06 14:28:45<>Alan Jackson<>Sissy's Song<>Heartache,Loss/Grief,Reflection,Reminiscing
+2019-12-06 14:31:51<>Ciara Featuring Young Jeezy<>Never Ever<>Empowering,Freedom,Girls Night Out,Heartache,Comfort
+2019-12-06 14:32:34<>Craig Morgan<>Bonfire<>Celebration,Drinking
+2019-12-06 14:44:00<>David Cook<>Come Back To Me<>Breakup,Heartache,In Love,Solitude
+2019-12-06 14:44:31<>Rihanna<>Rude Boy<>Cool & Cocky,Freedom,Girls Night Out,Seduction
+2019-12-06 14:44:39<>Kelly Clarkson<>Stronger (What Doesn't Kill You)<>Breakup,Empowering,Girls Night Out
+2019-12-06 14:46:05<>Hannah Montana Featuring David Archuleta<>I Wanna Know You<>Hanging Out,In Love
+2019-12-06 14:46:14<>Whitney Houston<>I Look To You<>Comfort,Empowering,Rainy Day
+2019-12-06 14:47:26<>Kristinia DeBarge<>Goodbye<>Freedom,Girls Night Out,Heartache
+2019-12-06 14:47:54<>Avril Lavigne<>Hello Kitty<>Partying,Playful,Sex
+2019-12-06 14:48:33<>Cobra Starship Featuring Leighton Meester<>Good Girls Go Bad<>Celebration,Cool & Cocky,Partying
+2019-12-06 14:50:36<>Martina McBride<>I'm Gonna Love You Through It<>Fear,Illness,Pain
+2019-12-06 14:56:53<>Mike Jones<>Next To You<>Cool & Cocky,Guys Night Out,Seduction
+2019-12-06 14:57:17<>Lil Pump<>Gucci Gang<>Day Driving,Hanging Out,Protest
+2019-12-06 14:57:21<>The All-American Rejects<>Gives You Hell<>Breakup,Mischievous
+2019-12-06 14:57:37<>Beyonce<>If I Were A Boy<>Comfort,Introspection,Reflection,Empowering,Feeling Blue,Girls Night Out,Solitude,Breakup
+2019-12-06 14:58:31<>Ne-Yo<>Mad<>Breakup,Heartache,In Love
+2019-12-06 14:59:38<>Kelly Clarkson<>I Do Not Hook Up<>Affirmation,Empowering,Motivation,In Love,Sex
+2019-12-06 15:02:03<>Trace Adkins<>Marry For Money<>Cool & Cocky,Freedom,Guys Night Out,Playful,Wedding
+2019-12-06 15:03:09<>Beyonce<>Single Ladies (Put A Ring On It)<>Girls Night Out,Partying,Celebration,Club,Mischievous,Playful,Sex,TGIF
+2019-12-06 15:03:26<>Drake<>Best I Ever Had<>Cool & Cocky,Guys Night Out,Seduction,Sex
+2019-12-06 15:04:18<>Jay-Z, Rihanna & Kanye West<>Run This Town<>Celebration,Cool & Cocky,TGIF,Victory
+2019-12-06 15:05:14<>Jeremih<>Birthday Sex<>In Love,Late Night,Seduction,Sex
+2019-12-06 15:05:20<>Lady Gaga<>Paparazzi<>Club,Late Night,Seduction,Sex
+2019-12-06 15:05:43<>Beyonce<>Sweet Dreams<>Heartache,In Love
+2019-12-06 15:05:49<>La Roux<>Bulletproof<>Club,Girls Night Out,Heartache,Playful
+2019-12-06 15:06:05<>Trey Songz Featuring Fabolous<>Say Aah<>Celebration,Club,Partying,Seduction,TGIF
+2019-12-06 15:06:11<>Alessia Cara<>Scars To Your Beautiful<>Empowering,Healing/Comfort,Hope
+2019-12-06 15:06:30<>Akon Featuring Colby O'Donis & Kardinal Offishall<>Beautiful<>Heartache,In Love,Romantic Evening
+2019-12-06 15:07:02<>The Script<>Breakeven<>Heartache,Reflection,Solitude,Day Driving,Hanging Out
+2019-12-06 15:07:09<>twenty one pilots<>Ride<>Day Driving,Summer,Victory
+2019-12-06 15:08:23<>Billy Currington<>People Are Crazy<>Drinking,Late Night,Reflection
+2019-12-06 15:09:28<>Darius Rucker<>Alright<>Hanging Out,Sunday Afternoon
+2019-12-06 15:09:40<>Will Young<>Leave Right Now<>Feeling Blue,In Love,Loss/Grief
+2019-12-06 13:20:01<>Rick Ross Featuring Kanye West, T-Pain & Lil' Wayne<>Maybach Music 2<>Guys Night Out,Motivation
+2019-12-06 13:20:05<>Jason Mraz<>If It Kills Me<>Affection/Fondness,Heartache,New Love
+2019-12-06 13:20:09<>Eddie Vedder<>My City Of Ruins (Live From The Kennedy Center Honors)<>Comfort,Feeling Blue,Introspection,Loss/Grief
+2019-12-06 13:24:45<>Leona Lewis<>I Will Be<>Heartache,Regret,Relaxation,Romantic Evening,Sweet Dreams,In Love,Empowering,Girls Night Out
+2019-12-06 13:24:50<>Keith Urban<>I'm In<>Affection/Fondness,In Love,New Love
+2019-12-06 13:24:56<>Kris Allen<>Falling Slowly<>Comfort,Heartache,Introspection,Romantic Evening
+2019-12-06 13:27:03<>Asher Roth<>Lark On My Go-Kart<>Drinking,Guys Night Out,Partying,TGIF
+2019-12-06 13:28:48<>Tim McGraw<>Humble And Kind<>Children,Parenthood,Reflection
+2019-12-06 13:29:46<>Dierks Bentley<>Feel That Fire<>Day Driving,In Love,Partying
+2019-12-06 13:29:55<>Lady Antebellum<>Lookin' For A Good Time<>Dance Party,Good Times,Partying
+2019-12-06 13:33:07<>Flo Rida Featuring Ne-Yo<>Be On You<>Romantic Evening,Seduction,Sex
+2019-12-06 13:34:30<>Childish Gambino<>Redbone<>Affirmation,Daydreaming,Illness,Late Night,Summer
+2019-12-06 13:37:11<>Christopher Wilde<>StarStruck<>Girls Night Out,Partying,Playful,TGIF
+2019-12-06 13:38:24<>Fall Out Boy<>America's Suitehearts<>Empowering,Guys Night Out,Introspection,Motivation
+2019-12-06 13:38:29<>Paramore<>Careful<>Breakup,Reunion
+2019-12-06 13:40:12<>David Bowie<>Blackstar<>Late Night,Loss/Grief,Memorial
+2019-12-06 13:42:14<>OneRepublic With Sara Bareilles<>Come Home<>Seduction,Sex
+2019-12-06 13:42:42<>Taylor Swift<>All Too Well<>Breakup,Heartache,Heartbreak
+2019-12-06 13:43:33<>Christopher Wilde & Anna Margaret<>Something About The Sunshine<>Vacation,Girls Night Out,Partying,Playful,TGIF
+2019-12-06 13:48:14<>Miranda Cosgrove<>Kissin U<>Day Driving,In Love
+2019-12-06 13:51:18<>Janet & Daddy Yankee<>Made For Now<>Celebration,Empowering,Summer
+2019-12-06 13:51:30<>Kris Allen<>Live Like We're Dying<>Relaxation,Hanging Out
+2019-12-06 13:52:47<>Mariah Carey Featuring YG<>I Don't<>At the Office,Breakup,Feeling Blue,Heartache,Relaxation,Slow Dance,In Love,Comfort
+2019-12-06 13:55:08<>Zedd & Elley Duhe<>Happy Now<>Heartbreak,Nighttime,Pain
+2019-12-06 13:55:36<>Game Featuring Chris Brown, Tyga, Wiz Khalifa & Lil Wayne<>Celebration<>Cool & Cocky,Drinking,Guys Night Out,Hanging Out,Late Night,Night Driving,Road Trip,Scary Music
+2019-12-06 13:55:59<>Beyonce Featuring Nicki Minaj Or Chimamanda Ngozi Adichie<>***Flawless<>Celebration,Maverick,Revolutionary
+2019-12-06 13:57:46<>Little Big Town<>Day Drinking<>At the Beach,Hanging Out,Pool Party
+2019-12-06 14:00:18<>The Script<>Superheroes<>Friendship
+2019-12-06 14:01:50<>Antoine Dodson & The Gregory Brothers Featuring Kelly Dodson<>Bed Intruder Song<>Mischievous,Playful,The Creative Side
+2019-12-06 14:03:51<>John Rich<>Shuttin' Detroit Down<>Feeling Blue,Politics/Society,Reflection
+2019-12-06 14:04:05<>Birdman Featuring Drake & Lil Wayne<>4 My Town (Play Ball)<>Cool & Cocky,Guys Night Out,TGIF
+2019-12-06 14:04:12<>Phoenix<>1901<>Comfort,Day Driving,Summer
+2019-12-06 14:06:29<>Carolina Liar<>Show Me What I'm Looking For<>Day Driving,Heartache
+2019-12-06 14:06:40<>Reba<>Strange<>Breakup,Feeling Blue,Heartache
+2019-12-06 14:06:47<>Creed<>Rain<>Reflection,Regret,Solitude
+2019-12-06 14:06:59<>Tim McGraw<>Still<>Background Music,Girls Night Out,Relaxation,Sunday Afternoon
+2019-12-06 14:09:40<>Thriving Ivory<>Angels On The Moon<>Feeling Blue
+2019-12-06 14:09:47<>Silversun Pickups<>Panic Switch<>Feeling Blue,Introspection,Reflection,Solitude
+2019-12-06 14:09:54<>Cage The Elephant<>Ain't No Rest For The Wicked<>Late Night,Hanging Out,Drinking
+2019-12-06 14:10:06<>Carrie Underwood<>Temporary Home<>Affirmation,Feeling Blue,Reflection
+2019-12-06 14:13:40<>The White Tie Affair<>Candle (Sick And Tired)<>Breakup
+2019-12-06 14:14:17<>Florence + The Machine<>Dog Days Are Over<>Affection/Fondness,Heartache,Late Night,Loss/Grief
+2019-12-06 14:20:11<>Madcon<>Beggin'<>Breakup,Heartache,Club
+2019-12-06 14:20:27<>Justin Bieber<>One Time<>Affection/Fondness,Hanging Out,New Love
+2019-12-06 14:20:31<>Uncle Kracker<>Smile<>Affection/Fondness,Comfort,Early Morning
+2019-12-06 14:20:36<>Mario<>Ooh Baby<>In Love,New Love,Romantic Evening,Seduction
+2019-12-06 14:22:33<>P!nk<>Beautiful Trauma<>Cool & Cocky,Heartache,Yearning
+2019-12-06 14:22:43<>Natasha Bedingfield<>Soulmate<>Girls Night Out,In Love,New Love,Slow Dance
+2019-12-06 14:22:49<>Jaheim<>Ain't Leavin Without You<>In Love,Romantic Evening,Slow Dance,Seduction,Sex
+2019-12-06 14:24:35<>Demi Lovato<>La La Land<>Girls Night Out,Partying
+2019-12-06 14:24:39<>Jonas Brothers<>Fly With Me<>Affection/Fondness,Club,Girls Night Out,Guys Night Out
+2019-12-06 14:25:32<>Rihanna<>Love On The Brain<>Despair,Heartache,Pain
+2019-12-06 14:25:54<>Jonas Brothers<>Love Is On Its Way<>Girls Night Out,Affection/Fondness,Comfort,New Love,Summer
+2019-12-06 14:25:59<>Adam Lambert<>For Your Entertainment<>Club,Late Night,Seduction
+2019-12-06 14:26:19<>Taylor Swift<>Never Grow Up<>Children,Family,Parenthood
+2019-12-06 14:28:40<>Danny Gokey<>My Best Days Are Ahead Of Me<>Introspection,Motivation,Reflection,Reminiscing
+2019-12-06 14:47:42<>Toby Keith<>Cryin' For Me (Wayman's Song)<>Loss/Grief
+2019-12-06 14:47:47<>Lady Antebellum<>American Honey<>Reflection,Reminiscing,Summer
+2019-12-06 14:52:24<>Lady Gaga<>LoveGame<>Club,Girls Night Out,Late Night,Seduction,Sex,TGIF
+2019-12-06 14:52:31<>The Pussycat Dolls Featuring Nicole Scherzinger<>Hush Hush<>Breakup,Club,Jealousy,Late Night
+2019-12-06 14:55:31<>Martina McBride<>I Just Call You Mine<>Affection/Fondness,In Love,New Love
+2019-12-06 14:57:10<>Big Sean Featuring Jeremih<>Light<>Hanging Out,Mischievous,Playful,The Creative Side
+2019-12-06 14:57:38<>Sugarland<>Joey<>Heartache,Loss/Grief,Reflection
+2019-12-06 15:02:32<>Kings Of Leon<>Notion<>Late Night
+2019-12-06 15:02:37<>Darius Rucker<>History In The Making<>Anniversary,In Love,New Love
+2019-12-06 15:02:56<>Jason Michael Carroll<>Hurry Home<>Feeling Blue,Heartache,Regret
+2019-12-06 15:04:17<>Beyonce Featuring Drake<>Mine<>Heartache,Jealousy,Separation
+2019-12-06 15:06:43<>Whitney Houston<>Million Dollar Bill<>Girls Night Out,In Love,New Love
+2019-12-06 15:06:49<>John Mayer<>Heartbreak Warfare<>Feeling Blue,Heartache,Introspection,Reflection
+2019-12-06 15:07:06<>Rob Thomas<>Mockingbird<>Affection/Fondness,Long Walk,Reflection
+2019-12-06 15:11:06<>Martina McBride<>Ride<>Comfort,In Love,Relaxation
+2019-12-06 13:22:13<>Billy Currington<>That's How Country Boys Roll<>Guys Night Out,Hanging Out,The Great Outdoors
+2019-12-06 13:24:19<>Kendrick Lamar<>Swimming Pools (Drank)<>Despair,Drinking,Tragedy
+2019-12-06 13:28:35<>Fall Out Boy<>I Don't Care<>Empowering,Guys Night Out,Motivation,Partying
+2019-12-06 13:29:03<>Ne-Yo<>Miss Independent<>In Love,Romantic Evening,Seduction,Freedom
+2019-12-06 13:29:24<>Carrie Underwood<>Just A Dream<>Reflection,Regret,Reminiscing
+2019-12-06 13:29:56<>Gavin Rossdale<>Love Remains The Same<>Affection/Fondness,Freedom,Reunion,In Love,New Love
+2019-12-06 13:30:07<>George Strait<>River Of Love<>Affection/Fondness,In Love,Picnic,Relaxation
+2019-12-06 13:30:21<>P!nk<>So What<>Empowering,Girls Night Out,TGIF
+2019-12-06 13:30:30<>David Archuleta<>Crush<>In Love,New Love
+2019-12-06 13:31:00<>Jonas Brothers<>Tonight<>Girls Night Out,Introspection,New Love,Empowering,Heartache,In Love,Reflection
+2019-12-06 13:36:34<>Alicia Keys<>Try Sleeping With A Broken Heart<>Breakup,Empowering,Girls Night Out
+2019-12-06 13:37:19<>DJ Snake & Lil Jon<>Turn Down For What<>Seduction,Sex
+2019-12-06 13:37:26<>David Guetta Featuring Nicki Minaj<>Turn Me On<>Dreaming,Playful
+2019-12-06 13:38:12<>Keri Hilson Featuring Lil Wayne<>Turnin Me On<>Girls Night Out,Club,Mischievous,Playful,Seduction,Sex
+2019-12-06 13:38:40<>George Strait<>Twang<>Club,Partying,Summer
+2019-12-06 13:39:14<>Boys Like Girls Featuring Taylor Swift<>Two Is Better Than One<>Affection/Fondness,Summer
+2019-12-06 13:41:41<>Carrie Underwood<>Undo It<>Breakup,Heartache,New Love
+2019-12-06 13:42:16<>Rascal Flatts<>Unstoppable<>Affirmation,Comfort,Reflection
+2019-12-06 13:42:41<>Taylor Swift<>Untouchable<>Affection/Fondness,New Love
+2019-12-06 13:42:52<>The Veronicas<>Untouched<>Cool & Cocky,Girls Night Out,Partying
+2019-12-06 13:43:38<>Mariah Carey Featuring Nicki Minaj<>Up Out My Face<>D-I-V-O-R-C-E,Breakup,Girls Night Out
+2019-12-06 13:43:54<>Crystal Bowersox<>Up To The Mountain<>Partying,Playful,Summer
+2019-12-06 13:44:46<>Kings Of Leon<>Use Somebody<>In Love,Late Night
+2019-12-06 13:45:45<>Owl City<>Vanilla Twilight<>Introspection,Rainy Day,Solitude,Stay in Bed
+2019-12-06 13:47:04<>Beyonce Featuring Lady Gaga<>Video Phone<>Girls Night Out,Partying,Seduction,Sex
+2019-12-06 13:48:40<>Selena Gomez<>Tell Me Something I Don't Know<>Empowering
+2019-12-06 13:48:46<>The Veronicas<>Take Me On The Floor<>Cool & Cocky,Girls Night Out,Partying,Club
+2019-12-06 13:49:16<>Trace Adkins<>All I Ask For Anymore<>Introspection,Reflection,Solitude
+2019-12-06 13:49:21<>Kellie Pickler<>Didn't You Know How Much I Loved You<>Breakup,Heartache,Regret
+2019-12-06 13:49:26<>Kelly Clarkson<>All I Ever Wanted<>Empowering,Girls Night Out,Motivation
+2019-12-06 13:49:30<>Theory Of A Deadman<>All Or Nothing<>Cool & Cocky,Guys Night Out,Jealousy
+2019-12-06 13:50:52<>Coldplay<>Viva La Vida<>Introspection,Reflection
+2019-12-06 13:51:03<>Chris Young<>Voices<>Introspection,Reflection,Reminiscing
+2019-12-06 13:52:25<>3OH!3<>Don't Trust Me<>Cool & Cocky,Mischievous,Jealousy,Partying,Seduction,Sex
+2019-12-06 13:52:46<>Prince And The Revolution<>Purple Rain<>Night Driving,Prom,Romance
+2019-12-06 13:52:52<>Prince And The Revolution<>Raspberry Beret<>Day Driving,Hanging Out,Partying,Playful,Road Trip,Summer,TGIF,The Creative Side
+2019-12-06 13:53:03<>Wham! Featuring George Michael<>Careless Whisper<>Feeling Blue,Heartache,In Love,Late Night,Romantic Evening,Seduction,Sex,Slow Dance
+2019-12-06 13:53:10<>Leona Lewis<>Better In Time<>In Love,Empowering,Girls Night Out
+2019-12-06 13:53:33<>Adele<>Chasing Pavements<>Introspection,Reflection,Solitude,In Love,Motivation
+2019-12-06 13:53:50<>Theory Of A Deadman<>Bad Girlfriend<>Cool & Cocky,Guys Night Out,Jealousy
+2019-12-06 13:54:01<>Brenda Lee<>Rockin' Around The Christmas Tree<>Christmas Party,Holidays,Family Gatherings,Celebration,Relaxation,Winter,Small Gathering,Seduction
+2019-12-06 13:54:07<>Prince<>1999<>Club,Cool & Cocky,Empowering,Freedom,Late Night,Maverick,Partying,Sex
+2019-12-06 13:55:03<>Miranda Lambert<>The House That Built Me<>Reflection
+2019-12-06 13:55:36<>Chris Young<>The Man I Want To Be<>Introspection,Reflection,Reminiscing
+2019-12-06 13:57:24<>Paramore<>The Only Exception<>In Love
+2019-12-06 13:59:52<>Jason Michael Carroll<>Where I'm From<>Cool & Cocky,Hanging Out,Politics/Society
+2019-12-06 14:01:41<>Miranda Lambert<>White Liar<>Breakup,Girls Night Out
+2019-12-06 14:02:56<>Nick Jonas & The Administration<>Who I Am<>Reflection,Heartache,Solitude
+2019-12-06 14:03:46<>Josh Turner<>Why Don't We Just Dance<>Politics/Society
+2019-12-06 14:04:47<>Gloriana<>Wild At Heart<>Freedom,Hanging Out,Summer
+2019-12-06 14:05:27<>Susan Boyle<>Wild Horses<>Introspection,Reminiscing,Sunday Afternoon,Affection/Fondness,Rainy Day,Relaxation
+2019-12-06 14:07:59<>David Guetta Featuring Usher<>Without You<>Feeling Blue,Happiness,In Love
+2019-12-06 14:08:11<>Hinder<>Without You<>Breakup,Heartache,In Love,Introspection,Reflection,Regret,Freedom
+2019-12-06 14:08:50<>Britney Spears<>Womanizer<>Freedom,Girls Night Out,Partying,Breakup,Sex
+2019-12-06 14:09:13<>Paul McCartney<>Wonderful Christmastime<>Christmas Party,Holidays,Playful,Winter,Celebration
+2019-12-06 14:10:36<>Bruce Springsteen<>Working On A Dream<>Day Driving,Freedom,Hanging Out
+2019-12-06 14:11:29<>Martina McBride<>Wrong Baby Wrong<>Breakup,Freedom,Girls Night Out
+2019-12-06 14:12:25<>Beyonce<>XO<>In Love,Playful,Romance
+2019-12-06 14:14:56<>Katy Perry<>Waking Up In Vegas<>Empowering,Girls Night Out,Mischievous,Partying,TGIF
+2019-12-06 14:18:52<>K'Naan<>Wavin' Flag<>Revolutionary,Empowering,Motivation,Politics/Society,Freedom
+2019-12-06 14:22:13<>Bon Jovi<>We Weren't Born To Follow<>Exercise/Workout,Freedom,Motivation
+2019-12-06 14:23:08<>Brad Paisley<>Welcome To The Future<>Introspection,Reflection,Reminiscing,Road Trip
+2019-12-06 14:28:01<>Musiq Soulchild<>sobeautiful<>In Love
+2019-12-06 14:28:07<>Keith Urban<>Only You Can Love Me This Way<>Affection/Fondness,In Love,Reflection
+2019-12-06 14:29:23<>OneRepublic<>Secrets<>Freedom,Motivation,Victory
+2019-12-06 14:31:55<>The Killers<>Human<>Empowering,Introspection,Reflection
+2019-12-06 14:32:04<>Rascal Flatts<>Here<>Breakup,Heartache,Regret,In Love
+2019-12-06 14:33:44<>P!nk<>What About Us<>Motivation,Politics/Society,Protest
+2019-12-06 14:40:27<>Daughtry<>What About Now<>Breakup,Empowering,Hanging Out,Heartache,Loss/Grief,Reflection,Regret
+2019-12-06 14:44:17<>Russ<>What They Want<>Happiness,Mischievous,Sex
+2019-12-06 14:45:14<>Adam Lambert<>Whataya Want From Me<>Reflection,Late Night
+2019-12-06 14:45:23<>Jason Derulo<>Whatcha Say<>Club,TGIF
+2019-12-06 14:45:27<>Zac Brown Band<>Whatever It Is<>Affection/Fondness,Day Driving
+2019-12-06 14:45:59<>Foo Fighters<>Wheels<>Comfort,Long Walk,Rainy Day,Reflection
+2019-12-06 14:46:22<>Miley Cyrus<>When I Look At You<>Affirmation,Comfort,Introspection,Reflection,Solitude
+2019-12-06 14:48:11<>Usher<>There Goes My Baby<>In Love,Seduction
+2019-12-06 14:48:49<>Rascal Flatts<>Things That Matter<>Feeling Blue,Reflection,Regret,Reminiscing
+2019-12-06 14:49:26<>Katy Perry<>Thinking Of You<>Girls Night Out,Mischievous
+2019-12-06 14:51:11<>Thirty Seconds To Mars<>This Is War<>Victory,Introspection,Motivation,Politics/Society
+2019-12-06 14:53:27<>New Boyz Featuring Ray J<>Tie Me Down<>Cool & Cocky,Mischievous,Playful,Summer
+2019-12-06 14:55:27<>Adam Lambert<>Time For Miracles<>In Love,Reflection
+2019-12-06 14:57:20<>Taylor Swift<>Today Was A Fairytale<>In Love,New Love
+2019-12-06 14:58:23<>Jason Mraz<>I'm Yours<>Affection/Fondness,Summer,Sunday Afternoon
+2019-12-06 14:58:44<>Taylor Swift<>Fifteen<>Empowering,Reflection,School
+2019-12-06 14:58:58<>Britney Spears<>If U Seek Amy<>Freedom,Girls Night Out,Partying,Breakup,Sex
+2019-12-06 14:59:09<>DJ Khaled Featuring Kanye West & T-Pain<>Go Hard<>Partying
+2019-12-06 14:59:16<>Nickelback<>If Today Was Your Last Day<>Empowering,Motivation,Reflection
+2019-12-06 14:59:42<>Taylor Swift<>Fearless<>Empowering,Motivation,Victory
+2019-12-06 14:59:58<>David Cook<>Light On<>Breakup,Feeling Blue
+2019-12-06 15:00:08<>Jonas Brothers<>Lovebug<>Girls Night Out,Affection/Fondness,Heartache,In Love,Introspection,New Love,Reflection
+2019-12-06 15:00:13<>Prince And The Revolution<>I Would Die 4 U<>Pain,Peace,Victory
+2019-12-06 15:00:23<>Whitney Houston<>I Wanna Dance With Somebody (Who Loves Me)<>New Love,In Love,Girls Night Out,Club,Partying,TGIF
+2019-12-06 15:00:30<>Whitney Houston<>Greatest Love Of All<>Birth,New Love,Affection/Fondness,In Love,Empowering,Motivation,Sunday Afternoon
+2019-12-06 15:00:44<>Prince And The Revolution<>Let's Go Crazy<>Empowering,Freedom,Late Night,Partying,Summer,TGIF,Cool & Cocky,Motivation
+2019-12-06 15:00:51<>Katy Perry<>Hot N Cold<>Empowering,Girls Night Out,Mischievous,Partying,TGIF
+2019-12-06 15:01:03<>Bon Jovi<>Livin' On A Prayer<>Empowering,Freedom,Girls Night Out,Guys Night Out,Summer
+2019-12-06 15:01:10<>Prince<>Little Red Corvette<>Club,Cool & Cocky,Day Driving,Late Night,Maverick,Night Driving,Partying,Road Trip
+2019-12-06 15:01:18<>Whitney Houston<>How Will I Know<>New Love,In Love,Girls Night Out,Partying,TGIF
+2019-12-06 15:01:32<>Whitney Houston<>I Will Always Love You<>New Love,Affection/Fondness,In Love,Romantic Evening,Seduction,Slow Dance,Breakup
+2019-12-06 15:02:14<>Linkin Park<>Numb<>Empowering,Heartache,Introspection,Night Driving,Late Night,Regret
+2019-12-06 15:02:28<>Beyonce<>Get Me Bodied<>Club,Girls Night Out,Mischievous,Partying,Seduction,TGIF
+2019-12-06 15:02:55<>Rihanna<>Disturbia<>Club,Girls Night Out,Introspection,Late Night,Partying,Sex
+2019-12-06 15:03:02<>Saving Abel<>Addicted<>Cool & Cocky,Hanging Out,Partying,Guys Night Out,In Love,Sex
+2019-12-06 15:03:07<>Ne-Yo<>Closer<>Club,Late Night,Partying,Seduction,In Love,Sex
+2019-12-06 15:04:05<>Jack Johnson<>You And Your Heart<>At the Beach,Relaxation,Long Walk,Sunday Afternoon
+2019-12-06 15:04:10<>Taylor Swift<>You Are In Love<>In Love
+2019-12-06 15:04:25<>Taylor Swift<>You Belong With Me<>In Love,Motivation,New Love,Victory
+2019-12-06 15:05:16<>Keyshia Cole<>You Complete Me<>In Love,Romantic Evening
+2019-12-06 15:05:36<>Daughtry<>You Don't Belong<>Breakup,Heartache,Reflection,Regret
+2019-12-06 15:05:55<>The Fray<>You Found Me<>Comfort,Introspection,In Love,Reflection,Reminiscing
+2019-12-06 15:07:21<>Hannah Montana<>You'll Always Find Your Way Back Home<>Celebration,Playful,Freedom
+2019-12-06 15:07:26<>New Boyz<>You're A Jerk<>Cool & Cocky,Mischievous,Playful,Summer
+2019-12-06 15:08:01<>Chris Young<>You<>Dinner Ambiance,In Love,Relaxation,Romantic Evening
+2019-12-06 15:09:09<>Ke$ha<>Your Love Is My Drug<>Freedom,Girls Night Out,Partying,Day Driving,Drinking
+2019-12-06 15:10:16<>Bad Wolves<>Zombie<>Loss/Grief,Pain,Tragedy
+2019-12-06 14:31:53<>David Guetta Featuring Kelly Rowland<>When Love Takes Over<>Club,Day Driving,Exercise/Workout,In Love,New Love
+2019-12-06 14:32:29<>Jason Aldean<>The Truth<>Breakup
+2019-12-06 14:32:33<>Fitz And The Tantrums<>The Walker<>Reminiscing,Early Morning,The Great Outdoors
+2019-12-06 16:29:30<>Ludacris Co-Starring T-Pain<>One More Drink<>Guys Night Out,Drinking,Partying,TGIF
+2019-12-06 16:29:47<>Kris Allen<>Ain't No Sunshine<>Heartache,Breakup,D-I-V-O-R-C-E
+2019-12-06 16:30:39<>Wham!<>Last Christmas<>Christmas Party,Feeling Blue,Heartache,Holidays,In Love,Loss/Grief,Partying,Reminiscing
+2019-12-06 16:32:17<>F.L.Y. (Fast Life Yungstaz)<>Swag Surfin'<>Guys Night Out,Club,Partying,TGIF
+2019-12-06 16:29:32<>Beyonce<>Countdown<>In Love,Passion,Playful
+2019-12-06 16:29:46<>Brad Paisley<>American Saturday Night<>Road Trip,Summer,The Great Outdoors
+2019-12-06 16:30:14<>Hoodie Allen Featuring Ed Sheeran<>All About It<>Empowering,Maverick,The Creative Side
+2019-12-06 16:31:03<>Taylor Swift<>The Other Side Of The Door<>Affection/Fondness,Girls Night Out
+2019-12-06 16:32:18<>Chris Young Duet With Cassadee Pope<>Think Of You<>Girls Night Out,Comfort,Day Driving,Exercise/Workout,In Love,New Love,Summer
+2019-12-06 16:33:07<>Coldplay With Jay-Z<>Lost!<>Affirmation,Comfort,Empowering,Feeling Blue,Hanging Out,Introspection,Long Walk,Rainy Day
+2019-12-06 16:58:51<>Thirty Seconds To Mars<>Kings And Queens<>Day Driving,Motivation,Victory
