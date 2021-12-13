@@ -1,7 +1,5 @@
 # Billboard x AllMusic 数据报告
 
-（简单介绍一下情况，我姑妄说之您姑妄听之）
-
 - [Billboard x AllMusic 数据报告](#billboard-x-allmusic-数据报告)
   * [数据获取策略](#数据获取策略)
   * [标签聚类](#标签聚类)
@@ -23,7 +21,7 @@
 
 ## 标签聚类
 
-AllMusic 的 Theme 共有 182 个标签，冗余严重（x 
+AllMusic 的 Theme 共有 182 个标签，冗余严重
 <!--
 [Bischoff, Kerstin & Claudiu, Sava & Paiu, Raluca & Nejdl, Wolfgang & Laurier, Cyril & Sordo, Mohamed. (2009). Music Mood and Theme Classification - a Hybrid Approach.. Proceedings of the 10th International Society for Music Information Retrieval Conference, ISMIR 2009. 657-662.](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.182.937&rep=rep1&type=pdf) （我被 APA 会议格式搞昏了，直接复制 [ResearchGate](https://www.researchgate.net/publication/220723819_Music_Mood_and_Theme_Classification_-_a_Hybrid_Approach) 给的 citation 了）将 AllMuisc 的 theme tags 按相似性做了聚类，并排除掉了一些收录歌曲过少的标签，原表如下：
 
@@ -45,11 +43,11 @@ AllMusic 的 Theme 共有 182 个标签，冗余严重（x
 | Love    | Sex, Seduction, Romantic Evening, In Love, New Love, Wedding, Romance |
 | Breakup | D-I-V-O-R-C-E, Breakup                                       |
 
-大家可以根据后面的数据概览看看这个标准合不合适！还挺迷的。
+大家可以根据后面的数据概览看看这个标准合不合适。
 另外，后续发现存在一首歌既有 love 标签又有 breakup 标签的情况。共 18 首，等待清洗完成。
 ## 数据清洗
 
-根据 Billboard 网站的记录，2009 - 2018 年 Billboard Hot 100 周榜共上榜 4500 首歌曲。其中有 206 首 Glee（欢乐合唱团）的翻唱曲目，难以自动化搜索，故暂且舍弃。那么样本容量即 4294 首。其中年榜样本容量为 899 首（有重复上榜的情况，气死我了：）））。理论上其余的样本量即为 4295 - 899 = 3396 首。
+根据 Billboard 网站的记录，2009 - 2018 年 Billboard Hot 100 周榜共上榜 4500 首歌曲。其中有 206 首 Glee（欢乐合唱团）的翻唱曲目，难以自动化搜索，故暂且舍弃。那么样本容量即 4294 首。其中年榜样本容量为 899 首（有重复上榜的情况。理论上其余的样本量即为 4295 - 899 = 3396 首。
 
 吐槽：在获取数据的过程中，发现 Billboard 榜单的一个 bug：
 
